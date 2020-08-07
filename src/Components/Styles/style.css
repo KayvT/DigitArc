@@ -74,7 +74,6 @@ button:hover {
   margin-left: -100px;
 }
 .landingframe {
-  padding-bottom: 150px;
   /* padding-top: 100px; */
 }
 .from {
@@ -124,19 +123,31 @@ button:hover {
 .services-text {
   display: flex;
   font-family: "Poppins ExtraBold", sans-serif;
-  font-size: 50px;
-  justify-content: center;
+  font-size: 90px;
   text-decoration: underline;
   text-decoration-color: #2498ca;
   text-decoration-thickness: 10px;
+  padding-bottom: 6%;
+}
+
+.service-subText {
+  display: flex;
+  font-family: "Poppins Light", sans-serif;
+  font-size: 18px;
+  /* justify-content: center; */
+  /* padding-left: 0px; */
 }
 .service-layout {
   /* position: relative; */
   display: flex;
   flex-direction: column;
 }
+.row {
+  padding-bottom: 180px;
+}
 .service-row {
-  margin-top: -25%;
+  margin-top: -50%;
+  margin-bottom: 10%;
   /* margin-left: -40%; */
 }
 .card-layout {
@@ -145,6 +156,64 @@ button:hover {
   /* align-items: flex-end; */
   /* justify-content: space-evenly; */
   margin-top: -50%;
-  margin-left: 50%;
+  /* margin-left: 50%; */
   /* flex-wrap: wrap-reverse; */
+}
+.card-body-custom {
+  /* display: flex; */
+  /* min-height: 100vh; */
+  background-color: #2498ca;
+  border: none;
+  border-radius: 8px;
+  height: 200px;
+  width: 200px;
+  /* flex: 0 0 181px; */
+  /* width: auto; */
+  /* width: 100px; */
+}
+.white {
+  background-color: white;
+}
+
+.index {
+  z-index: 1000;
+}
+.content {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardText {
+  font-family: "Poppins ExtraLight";
+  color: white;
+}
+.cardText-blue {
+  font-family: "Poppins ExtraLight";
+  color: #2498ca;
+}
+.tableIcon {
+  height: 120px;
+}
+
+/*  WHAT WE DO SECTION */
+
+.flexbox {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flexbox div {
+  width: 40%;
+  background: green;
+  height: 30%;
+}
+.flexbox .one,
+.flexbox .two {
+  height: 45%;
 }

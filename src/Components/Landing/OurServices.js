@@ -1,26 +1,100 @@
 import React from "react";
 import svgService from "../../Assets/imgs/Path 238.png";
+import arcIcon from "../../Assets/imgs/icons8-product-architecture-96.png";
+import devIcon from "../../Assets/imgs/icons8_source_code_100px.png";
+import optIcon from "../../Assets/imgs/icons8_responsive_128px.png";
+import workIcon from "../../Assets/imgs/icons8_process_80px_3.png";
+import iotIcon from "../../Assets/imgs/icons8_internet_200px_1.png";
+import cloudIcon from "../../Assets/imgs/icons8_cloud_storage_128px.png";
+
 class OurServices extends React.Component {
   render() {
     return (
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-6 services-text">OUR SERVICES</div>
-          <div className="col-lg-6 service-layout">
-            <img src={svgService} alt="svgServices" />
-            <div class="row service-row">
-              <div class="col">1 of 3</div>
-              <div class="col">2 of 3</div>
-              <div class="col">3 of 3</div>
+          <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+            <div className="w-75">
+              <h1 className="services-text">OUR SERVICES</h1>
+              <p className="service-subText">
+                Digital Architects LLC. Is an IT solutions company leveraging
+                latest technologies and experience to serve better IT support
+                for better business outcomes. Digital Architects LLC. Is an IT
+                solutions company leveraging latest technologies and experience
+                to serve better IT support for better business outcomes. Digital
+                Architects LLC. Is an IT solutions company leveraging latest
+                technologies and experience to serve better IT support for
+                better business outcomes.
+              </p>
             </div>
-            <div class="row service-row">
-              <div class="col">1 of 3</div>
-              <div class="col">2 of 3</div>
-              <div class="col">3 of 3</div>
+          </div>
+          <div className="col-lg-6 service-layout d-flex justify-content-center align-items-center">
+            <img
+              style={{
+                position: "absolute",
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+              }}
+              src={svgService}
+              alt="svgServices"
+            />
+            <div
+              class="d-flex w-75 justify-content-center align-items-center"
+              style={{ gap: "15px", flexWrap: "wrap" }}
+            >
+              <div className="card-body-custom shadow index">
+                <div className="content">
+                  <img className="tableIcon" src={arcIcon} alt="devIcon" />
+                  <h3 className="cardText">Architecture</h3>
+                </div>
+              </div>
+              <div className="card-body-custom white shadow index">
+                <div className="content">
+                  <img className="tableIcon" src={devIcon} alt="devIcon" />
+                  <h3 className="cardText-blue">Development</h3>
+                </div>
+              </div>
+              <div className="card-body-custom shadow index">
+                <div className="content">
+                  <img className="tableIcon" src={optIcon} alt="devIcon" />
+                  <h3 className="cardText">Optimization</h3>
+                </div>
+              </div>
+              <div className="card-body-custom white shadow index">
+                {" "}
+                <div className="content">
+                  <img className="tableIcon" src={workIcon} alt="devIcon" />
+                  <h3 className="cardText-blue">Workflow</h3>
+                </div>
+              </div>
+              <div className="card-body-custom shadow index">
+                <div className="content">
+                  <img className="tableIcon" src={iotIcon} alt="devIcon" />
+                  <h3 className="cardText">IOT</h3>
+                </div>
+              </div>
+              <div className="card-body-custom white shadow index">
+                {" "}
+                <div className="content">
+                  <img className="tableIcon" src={cloudIcon} alt="devIcon" />
+                  <h3 className="cardText-blue">Cloud</h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div className="row"></div>
+        <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+          <div className="w-75">
+            <h1 className="services-text">WHAT WE DO</h1>
+          </div>
+          <div class="flexbox">
+            <div class="one">one</div>
+            <div class="two">two</div>
+            <div class="three">three</div>
+            <div class="four">four</div>
+            <div class="five">five</div>
+          </div>
+        </div>
       </div>
     );
   }
