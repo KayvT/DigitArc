@@ -21,6 +21,7 @@ class Navbar extends React.Component {
               <a href="#">About</a>
             </li>
           </ul>
+          {/* <button className="btnText">Contact Us</button> */}
         </nav>
         {/* <a class="cta" href="#"> */}
         {/* <button classname="btn">Contact Us</button> */}

@@ -4,7 +4,7 @@ class Header extends React.Component {
   render() {
     return (
       <div className="container-fluid landingframe">
-        <div className="row">
+        <div className="header-space row">
           <div className="col-lg-6">
             <div className="landingText">
               <div className="from">FROM</div>
@@ -18,7 +18,7 @@ class Header extends React.Component {
             </div>
           </div>
           <div className="col-lg-6 landingimg">
-            <img src={landingimg} alt="landing Image" />
+            <img src={landingimg} alt="landing" />
           </div>
         </div>
       </div>

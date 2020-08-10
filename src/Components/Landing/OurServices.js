@@ -11,7 +11,7 @@ class OurServices extends React.Component {
   render() {
     return (
       <div className="container-fluid">
-        <div className="row">
+        <div className="header-space row">
           <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
             <div className="w-75">
               <h1 className="services-text">OUR SERVICES</h1>
@@ -25,6 +25,7 @@ class OurServices extends React.Component {
                 technologies and experience to serve better IT support for
                 better business outcomes.
               </p>
+              <button className="btnText">GET STARTED!</button>
             </div>
           </div>
           <div className="col-lg-6 service-layout d-flex justify-content-center align-items-center">
@@ -74,25 +75,12 @@ class OurServices extends React.Component {
                 </div>
               </div>
               <div className="card-body-custom white shadow index">
-                {" "}
                 <div className="content">
                   <img className="tableIcon" src={cloudIcon} alt="devIcon" />
                   <h3 className="cardText-blue">Cloud</h3>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
-          <div className="w-75">
-            <h1 className="services-text">WHAT WE DO</h1>
-          </div>
-          <div class="flexbox">
-            <div class="one">one</div>
-            <div class="two">two</div>
-            <div class="three">three</div>
-            <div class="four">four</div>
-            <div class="five">five</div>
           </div>
         </div>
       </div>
