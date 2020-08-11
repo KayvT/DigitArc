@@ -9,7 +9,7 @@ class WhatWeDo extends React.Component {
     return (
       <div className="bg">
         <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
-          <div className="w-75">
+          <div className="w-75 pad">
             <h1 className="services-text">WHAT WE DO</h1>
           </div>
         </div>
