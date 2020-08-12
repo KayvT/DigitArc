@@ -1,11 +1,11 @@
 import React from "react";
-import svgService from "../../Assets/imgs/Path 238.png";
-import arcIcon from "../../Assets/imgs/icons8-product-architecture-96.png";
-import devIcon from "../../Assets/imgs/icons8_source_code_100px.png";
-import optIcon from "../../Assets/imgs/icons8_responsive_128px.png";
-import workIcon from "../../Assets/imgs/icons8_process_80px_3.png";
-import iotIcon from "../../Assets/imgs/icons8_internet_200px_1.png";
-import cloudIcon from "../../Assets/imgs/icons8_cloud_storage_128px.png";
+import svgService from "../../Assets/imgs/Decor SVGS/OUR SERVICE.png";
+import arcIcon from "../../Assets/imgs/OurServiceIcons/Architecture96px.png";
+import devIcon from "../../Assets/imgs/OurServiceIcons/dev128px.png";
+import optIcon from "../../Assets/imgs/OurServiceIcons/optimization128px.png";
+import workIcon from "../../Assets/imgs/OurServiceIcons/workflow100px.png";
+import iotIcon from "../../Assets/imgs/OurServiceIcons/iot64px.png";
+import cloudIcon from "../../Assets/imgs/OurServiceIcons/cloud128px.png";
 
 class OurServices extends React.Component {
   render() {

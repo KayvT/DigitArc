@@ -8,16 +8,6 @@
   /* overflow-x: hidden; */
 }
 
-.bg {
-  background-color: rgb(112, 112, 112, 0.1);
-  border-radius: 50;
-  -webkit-box-shadow: 3px 14px 30px 0px;
-  -moz-box-shadow: 3px 14px 30px 0px;
-  box-shadow: 3px 10px 30px 0px rgb(112, 112, 112, 0.4);
-  width: 1500px;
-  border-radius: 25px;
-  margin: auto;
-}
 .pad {
   padding-top: 60px;
 }
@@ -33,20 +23,22 @@ button {
 }
 
 .logo {
-  height: 50px;
+  height: 60px;
   cursor: pointer;
 }
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 10px 10%;
+  background-color: rgb(47, 216, 201, 0.7);
   /* height: 70px; */
   /* box-shadow: 2px 2px 2px -2px rgba(0, 4,0, 0.8); */
 }
 
 .nav_links {
   list-style: none;
+  padding-top: 20px;
 }
 .nav_links li {
   display: inline-block;
@@ -58,12 +50,12 @@ button {
   transition: all 0.5s ease 0s;
 }
 .nav_links li a:hover {
-  color: #2498ca;
+  color: white;
 }
 
 button {
   padding: 5px 25px;
-  background-color: rgb(36, 152, 202);
+  background-color: rgb(47, 216, 201);
   border: none;
   /* border-collapse: separate; */
   border-radius: 50px;
@@ -71,7 +63,7 @@ button {
   transition: all 0.5s ease 0s;
 }
 button:hover {
-  background-color: rgb(36, 152, 202, 0.8);
+  background-color: rgb(47, 216, 201, 0.8);
 }
 .btnText {
   font-family: "Poppins";
@@ -81,33 +73,36 @@ button:hover {
 .landingText {
   display: flex;
   justify-content: flex-end;
-  margin-right: -100px;
-  margin-top: 200px;
+  /* margin-right: -100px; */
+  margin-top: 50px;
   /* align-items: ce; */
   /* align-items: center; */
 }
 .landingimg {
-  margin-left: -100px;
+  /* margin-left: -100px; */
 }
 .landingframe {
-  /* padding-top: 100px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .from {
   display: flex;
   justify-content: flex-start;
-  margin-top: 100px;
-  margin-right: -30px;
+  margin-top: 80px;
+  margin-right: -20px;
   /* align-items: stretch; */
   font-family: "Poppins ExtraLight";
   font-style: italic;
-  color: #2498ca;
-  font-size: 60px;
+  color: rgb(47, 216, 201);
+  font-size: 20px;
 }
 .problem {
   display: flex;
   justify-content: flex-end;
   font-family: "Poppins SemiBold";
-  font-size: 150px;
+  font-size: 90px;
   color: #282828;
 }
 
@@ -119,21 +114,24 @@ button:hover {
   font-style: italic;
   color: #282828;
   /* align-items: baseline; */
-  font-size: 60px;
-
-  margin-left: 50px;
-  margin-top: -40px;
+  font-size: 20px;
+  margin-left: -36px;
+  margin-top: -20px;
 }
 .solution {
   /* display: flex; */
   /* justify-content: end; */
-  margin-top: -30px;
+  margin-top: -60px;
   /* margin-left: -15px; */
   font-family: "Poppins SemiBold";
-  color: #2498ca;
-  font-size: 150px;
+  color: rgb(47, 216, 201);
+  font-size: 90px;
 }
-
+.landingBTN {
+  border-radius: 50px;
+  /* width: 400px; */
+  max-width: 500px;
+}
 /* OUR SERVICES SECTION */
 
 .services-text {
@@ -141,9 +139,19 @@ button:hover {
   font-family: "Poppins ExtraBold", sans-serif;
   font-size: 90px;
   text-decoration: underline;
-  text-decoration-color: #24bcc4;
+  text-decoration-color: rgb(47, 216, 201);
   text-decoration-thickness: 10px;
   padding-bottom: 6%;
+}
+.services-text-white {
+  display: flex;
+  font-family: "Poppins ExtraBold", sans-serif;
+  font-size: 90px;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 10px;
+  /* padding-bottom: 6%; */
+  padding-top: 150px;
 }
 
 .service-subText {
@@ -182,7 +190,7 @@ button:hover {
 .card-body-custom {
   /* display: flex; */
   /* min-height: 100vh; */
-  background-color: #2498ca;
+  background-color: #2fd8c9;
   border: none;
   border-radius: 8px;
   height: 200px;
@@ -212,13 +220,26 @@ button:hover {
 }
 .cardText-blue {
   font-family: "Poppins ExtraLight";
-  color: #2498ca;
+  color: #2fd8c9;
 }
 .tableIcon {
-  height: 120px;
+  height: 90px;
 }
 
 /*  WHAT WE DO SECTION */
+
+.bg {
+  background-image: url("../../Assets/imgs/Decor SVGS/WHATWEDO.png");
+  height: 1550px;
+  /* background-color: rgb(112, 112, 112, 0.1); */
+  /* border-radius: 50; */
+  /* -webkit-box-shadow: 3px 14px 30px 0px;
+  -moz-box-shadow: 3px 14px 30px 0px;
+  box-shadow: 3px 10px 30px 0px rgb(112, 112, 112, 0.4); */
+  /* width: 1500px; */
+  /* border-radius: 25px; */
+  /* margin: auto; */
+}
 
 .WhatweDoBox {
   justify-content: center;
@@ -274,12 +295,18 @@ button:hover {
 }
 .title-icon {
   display: flex;
-  font-family: "Poppins Medium";
-  color: #2498ca;
+  font-family: "Poppins Medium", sans-serif;
+  /* font-weight: bold; */
+  color: #282828;
   align-items: last baseline;
   justify-content: left;
   padding: 20px;
 }
+/* .subHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 /* .test {
   display: flex;
   align-items: flex-end;
@@ -289,6 +316,7 @@ button:hover {
 }
 .details {
   font-family: "Poppins Light", sans-serif;
+  font-weight: 400;
   padding: 40px;
 }
 
@@ -315,31 +343,102 @@ button:hover {
 
 /* QUALITY CONTROL SECTION */
 
-.quality {
-  margin: auto;
-  background-color: rgba(242, 242, 242, 0.5);
-  max-width: 1500px;
-  -webkit-box-shadow: 3px 14px 30px 0px rgba(36, 152, 202, 1);
-  -moz-box-shadow: 3px 14px 30px 0px rgba(36, 152, 202, 1);
-  box-shadow: 3px 14px 30px 0px rgba(36, 152, 202, 1);
-  /* min-height: 200px; */
-}
 .rating {
   /* background-color: #f2f2f2; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-left: -100px;
 }
-
+/* .ratingContainer {
+  display: flex;
+  justify-content: flex-start;
+  justify-items: center;
+} */
+.controlsvg {
+  max-width: 90%;
+  margin-left: 50px;
+}
 .stars {
   font-family: "Poppins Medium";
   /* font-weight: bolder; */
   font-size: 80px;
-  color: #2498ca;
+  color: #2fd8c9;
 }
 .decorText {
   font-family: "Poppins ExtraLight";
   /* font-weight: lighter; */
   font-size: 20px;
+}
+
+/* CLIENTS SECTION */
+
+.clients-text {
+  display: flex;
+  font-family: "Poppins ExtraBold", sans-serif;
+  font-size: 90px;
+  text-decoration: underline;
+  text-decoration-color: rgb(47, 216, 201);
+  text-decoration-thickness: 10px;
+  margin-left: 55px;
+  /* padding-bottom: 6%; */
+}
+
+#clienticon {
+  height: 50px;
+  margin: 40px;
+}
+.clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+/* FOOTER */
+
+.footer {
+  /* margin: 0; */
+  background-color: rgb(47, 216, 201, 0.5);
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding: 100px; */
+  /* margin: 50px; */
+}
+.companyAddress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addressSpace span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footerimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 100px;
+  /* padding-top: 90px; */
+}
+.footercontact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footercontact span {
+  margin: auto;
+  padding-right: 150px;
+  justify-content: flex-start;
+  font-family: "Poppins Light", sans-serif;
+  color: white;
 }

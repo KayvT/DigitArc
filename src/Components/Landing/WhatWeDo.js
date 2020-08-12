@@ -10,7 +10,7 @@ class WhatWeDo extends React.Component {
       <div className="bg">
         <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <div className="w-75 pad">
-            <h1 className="services-text">WHAT WE DO</h1>
+            <h1 className="services-text-white">WHAT WE DO</h1>
           </div>
         </div>
         <div className="WhatweDoBox header-space container">
