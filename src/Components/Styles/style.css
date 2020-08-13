@@ -374,7 +374,7 @@ button:hover {
 
 /* CLIENTS SECTION */
 
-.clients-text {
+/* .clients-text {
   display: flex;
   font-family: "Poppins ExtraBold", sans-serif;
   font-size: 90px;
@@ -382,18 +382,21 @@ button:hover {
   text-decoration-color: rgb(47, 216, 201);
   text-decoration-thickness: 10px;
   margin-left: 55px;
-  /* padding-bottom: 6%; */
 }
 
-#clienticon {
-  height: 50px;
-  margin: 40px;
-}
+
 .clients {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 30px;
+}
+
+
+ */
+#clienticon {
+  height: 50px;
+  /* margin: 40px; */
 }
 
 /* FOOTER */
