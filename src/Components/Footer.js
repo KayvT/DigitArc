@@ -24,16 +24,25 @@ class Footer extends React.Component {
         </div>
         <div className="col-lg footercontact">
           <div className="row">
-            <span>Impressum</span>
-            <img src={linkedinIcon} alt="linkedinIcon" />
+            <a href="#">Impressum</a>
+            <a href="#">
+              <img src={linkedinIcon} alt="linkedinicon" />
+            </a>
           </div>
           <div className="row">
-            <span>Contact</span>
-            <img src={twitterIcon} alt="linkedinIcon" />
+            {/* <span> */}
+            <a href="#">Contact</a>
+            {/* </span> */}
+            <a href="#">
+              <img src={twitterIcon} alt="twittericon" />
+            </a>
           </div>
           <div className="row">
-            <span>Privacy Policy</span>
-            <img src={facebookIcon} alt="linkedinIcon" />
+            <a href="#">Privacy Policy</a>
+
+            <a href="#">
+              <img src={facebookIcon} alt="facebookicon" href="#" />
+            </a>
           </div>
         </div>
       </div>

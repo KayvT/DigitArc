@@ -433,10 +433,15 @@ button:hover {
   justify-content: center;
   align-items: flex-end;
 }
-.footercontact span {
+.footercontact a {
+  text-decoration: none;
   margin: auto;
   padding-right: 150px;
   justify-content: flex-start;
   font-family: "Poppins Light", sans-serif;
+  color: white;
+}
+.footercontact a:hover {
+  text-decoration: none;
   color: white;
 }

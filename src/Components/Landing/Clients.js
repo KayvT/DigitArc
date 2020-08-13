@@ -4,6 +4,11 @@ import MERCEDESicon from "../../Assets/clients/mercedeslogo.png";
 import THYicon from "../../Assets/clients/thyssenlogo.png";
 import Tsystemsicon from "../../Assets/clients/tsystemslogo.png";
 import SAPicon from "../../Assets/clients/saplogo.png";
+import ADVISicon from "../../Assets/clients/ADVIS_Logo.png";
+import Computaicon from "../../Assets/clients/1200px-Computacenter_logo.svg.png";
+import DHLicon from "../../Assets/clients/dhl-logo.png";
+import AUDIicon from "../../Assets/clients/audi.png";
+
 // import "@brainhubeu/react-carousel/lib/style.css";
 
 // import Carousel, { slidesToScrollPlugin } from "@brainhubeu/react-carousel";
@@ -32,10 +37,10 @@ class Clients extends React.Component {
           <Carousel
             // infinite={true}
             autoPlay={true}
-            slidesToShowPlugin
+            // slidesToShowPlugin
             slidesPerPage={5}
             centered={true}
-            animationSpeed={40000}
+            animationSpeed={80000}
             // infinite
           >
             <img src={THYicon} />
@@ -46,22 +51,22 @@ class Clients extends React.Component {
             <img src={SAPicon} />
             <br></br>
 
-            <img src={Tsystemsicon} />
+            <img src={ADVISicon} />
             <br></br>
 
             <img src={SIEMENicon} />
             <br></br>
 
-            <img src={SAPicon} />
+            <img src={DHLicon} />
             <br></br>
 
             <img src={Tsystemsicon} />
             <br></br>
 
-            <img src={THYicon} />
+            <img src={AUDIicon} />
             <br></br>
 
-            <img src={MERCEDESicon} />
+            <img src={Computaicon} />
             <br></br>
 
             <img src={SAPicon} />
