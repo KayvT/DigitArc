@@ -78,9 +78,7 @@ button:hover {
   /* align-items: ce; */
   /* align-items: center; */
 }
-.landingimg {
-  /* margin-left: -100px; */
-}
+
 .landingframe {
   display: flex;
   flex-direction: column;
@@ -374,7 +372,7 @@ button:hover {
 
 /* CLIENTS SECTION */
 
-/* .clients-text {
+.clients-text {
   display: flex;
   font-family: "Poppins ExtraBold", sans-serif;
   font-size: 90px;
@@ -384,7 +382,6 @@ button:hover {
   margin-left: 55px;
 }
 
-
 .clients {
   display: flex;
   justify-content: center;
@@ -392,8 +389,6 @@ button:hover {
   padding-top: 30px;
 }
 
-
- */
 #clienticon {
   height: 50px;
   /* margin: 40px; */
