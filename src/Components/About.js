@@ -9,7 +9,6 @@ class About extends React.Component {
       <div>
         <AboutHeader />
         <OurTeam />
-        {/* <h1>HELLLLOOO</h1> */}
       </div>
     );
   }
