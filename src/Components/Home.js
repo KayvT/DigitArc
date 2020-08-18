@@ -5,18 +5,20 @@ import WhatWeDo from "../Components/Landing/WhatWeDo";
 import Process from "../Components/Landing/Process";
 import QualityControl from "../Components/Landing/QualityControl";
 import Clients from "../Components/Landing/Clients";
-
-function App() {
-  return (
-    <>
-      <Header />
-      <OurServices />
-      <WhatWeDo />
-      <Process />
-      <QualityControl />
-      <Clients />
-    </>
-  );
+import { withRouter } from "react-router-dom";
+class Home extends React.Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <OurServices />
+        <WhatWeDo />
+        <Process />
+        <QualityControl />
+        <Clients />
+      </div>
+    );
+  }
 }
 
-export default App;
+export default withRouter(Home);

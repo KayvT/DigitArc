@@ -44,12 +44,12 @@ button {
   display: inline-block;
   padding: 0px 20px;
 }
-.nav_links li a {
+.nav_links li {
   text-decoration: none;
   color: black;
   transition: all 0.5s ease 0s;
 }
-.nav_links li a:hover {
+.nav_links li :hover {
   color: white;
 }
 
@@ -444,4 +444,72 @@ button:hover {
 .footercontact a:hover {
   text-decoration: none;
   color: white;
+}
+
+/*  ABOUT PAGE */
+
+.aboutTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  font-family: "Poppins Extralight", sans-serif;
+}
+
+.us {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 200px;
+  font-family: "Poppins SemiBold", sans-serif;
+  color: #2fd8c9;
+  margin-top: -92px;
+  margin-right: -200px;
+}
+
+/* TEAM SECTION */
+/* .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 80px auto 80px; 
+  column-gap: 10px;
+  row-gap: 15px;
+} */
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item img {
+  width: 80%;
+  height: 500px;
+  border-radius: 20px;
+  border-color: #2fd8c9;
+  box-shadow: 5px 5px 35px #2fd8c9;
+}
+
+.item .name {
+  font-family: "Poppins", sans-serif;
+  padding-top: 40px;
+  font-size: 30px;
+}
+.item .role {
+  font-size: 20px;
+  padding-top: -5px;
+  font-family: "Poppins ExtraLight", sans-serif;
 }
