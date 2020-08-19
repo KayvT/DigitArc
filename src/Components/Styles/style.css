@@ -497,10 +497,11 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 25px;
 }
 .item img {
-  width: 80%;
-  height: 500px;
+  width: 500px;
+  height: 700px;
   border-radius: 20px;
   border-color: #2fd8c9;
   box-shadow: 5px 5px 35px #2fd8c9;
@@ -526,15 +527,16 @@ button:hover {
   align-items: center;
   font-size: 100px;
   font-family: "Poppins Extralight", sans-serif;
+  margin-left: 220px;
 }
 
 .with {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
-  margin-left: 250px;
-  margin-top: -50px;
+  font-size: 40px;
+  margin-left: 450px;
+  margin-top: -40px;
 
   font-family: "Poppins Extralight", sans-serif;
 }
@@ -545,12 +547,38 @@ button:hover {
   font-size: 200px;
   font-family: "Poppins SemiBold", sans-serif;
   color: #2fd8c9;
-  margin-top: -100px;
+  margin-top: -80px;
   margin-right: -600px;
 }
-
+.career-text {
+  display: flex;
+  font-family: "Poppins ExtraBold", sans-serif;
+  font-size: 90px;
+  text-decoration: underline;
+  text-decoration-color: rgb(47, 216, 201);
+  text-underline-offset: 40px;
+  text-decoration-thickness: 10px;
+  padding-bottom: 6%;
+}
 /* CAREER SECTION */
-
+.accordion {
+  background-color: #2fd8c9;
+}
 .accordion__button {
+  color: #2fd8c9;
+}
+.accordion__button:hover {
   color: white;
+}
+#accordion__heading-raa-0 {
+  color: #2fd8c9;
+}
+.accordion__item {
+  color: white;
+}
+.accordion__heading {
+  background-color: #2fd8c9;
+}
+.accordinItems {
+  padding: 15px;
 }

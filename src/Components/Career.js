@@ -7,8 +7,8 @@ class Career extends React.Component {
       <>
         <CareerHeader />
         <Accordin />
-        <Accordin />
-        <Accordin />
+        {/* <Accordin /> */}
+        {/* <Accordin /> */}
       </>
     );
   }
