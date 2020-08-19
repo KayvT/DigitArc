@@ -1,8 +1,9 @@
 .App {
   background-color: #f6f8fc;
+  scroll-behavior: smooth;
 }
-/*
 
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;

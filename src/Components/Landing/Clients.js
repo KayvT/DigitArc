@@ -8,7 +8,8 @@ import ADVISicon from "../../Assets/clients/ADVIS_Logo.png";
 import Computaicon from "../../Assets/clients/1200px-Computacenter_logo.svg.png";
 import DHLicon from "../../Assets/clients/dhl-logo.png";
 import AUDIicon from "../../Assets/clients/audi.png";
-
+import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
+import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 class Clients extends React.Component {
@@ -27,10 +28,25 @@ class Clients extends React.Component {
         </div>
         <div className="header-space">
           <Carousel
-            autoPlay={true}
+            clickToChange
+            arrows
+            arrowLeft={
+              <button>
+                <ArrowBackIosIcon />
+              </button>
+            }
+            // arrowLeftDisabled={}
+            arrowRight={
+              <button>
+                <ArrowForwardIosIcon />
+              </button>
+            }
+            addArrowClickHandler={true}
+            // infinite={true}
+            // autoPlay={true}
             slidesPerPage={5}
-            centered={true}
-            animationSpeed={80000}
+            // centered={true}
+            // animationSpeed={80000}
           >
             <img src={THYicon} alt="THYicon" />
             <br></br>
@@ -50,6 +66,8 @@ class Clients extends React.Component {
             <br></br>
 
             <img src={AUDIicon} alt="AUDIicon" />
+            <br></br>
+            <img src={SAPicon} alt="SAPicon" />
             <br></br>
 
             <img src={Computaicon} alt="computaIcon" />

@@ -4,8 +4,8 @@ class QualityControl extends React.Component {
   render() {
     return (
       <div className="header-space">
-        <div class="row" style={{ margin: 0 }}>
-          <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+        <div className="row" style={{ margin: 0 }}>
+          <div className="col-4 d-flex flex-column justify-content-center align-items-center">
             <div className="w-75">
               <h1 className="services-text">Control</h1>
             </div>
@@ -17,7 +17,7 @@ class QualityControl extends React.Component {
               </div>
             </div>
           </div>
-          <div class="col-8">
+          <div className="col-8">
             <img src={ControlSVG} alt="controlsvg" className="controlsvg" />
           </div>
         </div>

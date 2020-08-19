@@ -14,8 +14,8 @@ class WhatWeDo extends React.Component {
           </div>
         </div>
         <div className="WhatweDoBox header-space container">
-          <div class="box-upper row">
-            <div class="box-one col">
+          <div className="box-upper row">
+            <div className="box-one col">
               <div className="title-icon">
                 <h3>Cloud Development and Migration</h3>
                 {/* <div className="test"> */}
@@ -32,7 +32,7 @@ class WhatWeDo extends React.Component {
                 can contemplate.
               </div>
             </div>
-            <div class="box-two col">
+            <div className="box-two col">
               <div className="title-icon">
                 <h3>Mobile and Web UI/UX Design</h3>
                 <img src={MobileIcon} alt="mobileIcon" />
@@ -48,8 +48,8 @@ class WhatWeDo extends React.Component {
               </div>
             </div>
           </div>
-          <div class="box-lower row">
-            <div class="box-three col">
+          <div className="box-lower row">
+            <div className="box-three col">
               <div className="title-icon">
                 <h3>Frontend Software Development</h3>
                 <img src={WebIcon} alt="WEbIcon" />
@@ -65,7 +65,7 @@ class WhatWeDo extends React.Component {
                 website)
               </div>
             </div>
-            <div class="box-four col">
+            <div className="box-four col">
               <div className="title-icon">
                 <h3>Backend Software Development</h3>
                 <img src={BracketsIcon} alt="Bracketsicon" />

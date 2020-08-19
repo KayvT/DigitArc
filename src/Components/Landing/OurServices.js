@@ -40,7 +40,7 @@ class OurServices extends React.Component {
               alt="svgServices"
             />
             <div
-              class="d-flex w-75 justify-content-center align-items-center"
+              className="d-flex w-75 justify-content-center align-items-center"
               style={{ gap: "15px", flexWrap: "wrap" }}
             >
               <div className="card-body-custom shadow index">

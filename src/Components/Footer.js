@@ -4,6 +4,7 @@ import footerImg from "../Assets/imgs/Decor SVGS/footerImg.png";
 import linkedinIcon from "../Assets/imgs/FooterIcons/icons8_linkedin_240px_1.png";
 import twitterIcon from "../Assets/imgs/FooterIcons/icons8_twitter_240px_1.png";
 import facebookIcon from "../Assets/imgs/FooterIcons/icons8_facebook_128px_1.png";
+import { Link } from "react-router-dom";
 
 class Footer extends React.Component {
   render() {
@@ -24,21 +25,21 @@ class Footer extends React.Component {
         </div>
         <div className="col-lg footercontact">
           <div className="row">
-            <a href="#">Impressum</a>
+            <Link to="/impressum">Impressum</Link>
             <a href="#">
               <img src={linkedinIcon} alt="linkedinicon" />
             </a>
           </div>
           <div className="row">
             {/* <span> */}
-            <a href="#">Contact</a>
+            {/* <a href="#">Contact</a> */}
             {/* </span> */}
             <a href="#">
               <img src={twitterIcon} alt="twittericon" />
             </a>
           </div>
           <div className="row">
-            <a href="#">Privacy Policy</a>
+            {/* <a href="#">Privacy Policy</a> */}
 
             <a href="#">
               <img src={facebookIcon} alt="facebookicon" href="#" />
