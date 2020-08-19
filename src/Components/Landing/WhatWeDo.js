@@ -19,7 +19,7 @@ class WhatWeDo extends React.Component {
               <div className="title-icon">
                 <h3>Cloud Development and Migration</h3>
                 {/* <div className="test"> */}
-                <img src={CloudIcon} />
+                <img src={CloudIcon} alt="cloudIcon" />
                 {/* </div> */}
               </div>
               <div className="details">
@@ -35,7 +35,7 @@ class WhatWeDo extends React.Component {
             <div class="box-two col">
               <div className="title-icon">
                 <h3>Mobile and Web UI/UX Design</h3>
-                <img src={MobileIcon} />
+                <img src={MobileIcon} alt="mobileIcon" />
               </div>
               <div className="details">
                 Digitarc LLC. serves the vast amounts of data of the clients
@@ -52,7 +52,7 @@ class WhatWeDo extends React.Component {
             <div class="box-three col">
               <div className="title-icon">
                 <h3>Frontend Software Development</h3>
-                <img src={WebIcon} />
+                <img src={WebIcon} alt="WEbIcon" />
               </div>
               <div className="details">
                 Besides designing UI/UX and developing modern backend
@@ -68,7 +68,7 @@ class WhatWeDo extends React.Component {
             <div class="box-four col">
               <div className="title-icon">
                 <h3>Backend Software Development</h3>
-                <img src={BracketsIcon} />
+                <img src={BracketsIcon} alt="Bracketsicon" />
               </div>
               <div className="details">
                 As Digitarc LLC., we serve our clients fast, reliable and

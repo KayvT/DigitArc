@@ -7,7 +7,9 @@ class not_found extends React.Component {
         <div className="not-found">
           <img src={notfoundPic} alt="404" />
           <p>Oh! You seem to have jumped into the wrong portal!</p>
-          <button className="btnText landingBTN">Head back home!</button>
+          <button className="btnText_notfound landingBTN">
+            Head back home!
+          </button>
         </div>
       </>
     );

@@ -45,7 +45,7 @@ class OurServices extends React.Component {
             >
               <div className="card-body-custom shadow index">
                 <div className="content">
-                  <img className="tableIcon" src={arcIcon} alt="devIcon" />
+                  <img className="tableIcon" src={arcIcon} alt="arcIcon" />
                   <h3 className="cardText">Architecture</h3>
                 </div>
               </div>
@@ -57,26 +57,26 @@ class OurServices extends React.Component {
               </div>
               <div className="card-body-custom shadow index">
                 <div className="content">
-                  <img className="tableIcon" src={optIcon} alt="devIcon" />
+                  <img className="tableIcon" src={optIcon} alt="optIcon" />
                   <h3 className="cardText">Optimization</h3>
                 </div>
               </div>
               <div className="card-body-custom white shadow index">
                 {" "}
                 <div className="content">
-                  <img className="tableIcon" src={workIcon} alt="devIcon" />
+                  <img className="tableIcon" src={workIcon} alt="workIcon" />
                   <h3 className="cardText-blue">Workflow</h3>
                 </div>
               </div>
               <div className="card-body-custom shadow index">
                 <div className="content">
-                  <img className="tableIcon" src={iotIcon} alt="devIcon" />
+                  <img className="tableIcon" src={iotIcon} alt="iotIcon" />
                   <h3 className="cardText">IOT</h3>
                 </div>
               </div>
               <div className="card-body-custom white shadow index">
                 <div className="content">
-                  <img className="tableIcon" src={cloudIcon} alt="devIcon" />
+                  <img className="tableIcon" src={cloudIcon} alt="cloudIcon" />
                   <h3 className="cardText-blue">Cloud</h3>
                 </div>
               </div>

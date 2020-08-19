@@ -9,15 +9,7 @@ import Computaicon from "../../Assets/clients/1200px-Computacenter_logo.svg.png"
 import DHLicon from "../../Assets/clients/dhl-logo.png";
 import AUDIicon from "../../Assets/clients/audi.png";
 
-// import "@brainhubeu/react-carousel/lib/style.css";
-
-// import Carousel, { slidesToScrollPlugin } from "@brainhubeu/react-carousel";
-// import { slidesToShowPlugin } from "@brainhubeu/react-carousel";
-import Carousel, {
-  slidesToShowPlugin,
-  autoplayPlugin,
-  slidesToScrollPlugin,
-} from "@brainhubeu/react-carousel";
+import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 class Clients extends React.Component {
   render() {
@@ -35,44 +27,32 @@ class Clients extends React.Component {
         </div>
         <div className="header-space">
           <Carousel
-            // infinite={true}
             autoPlay={true}
-            // slidesToShowPlugin
             slidesPerPage={5}
             centered={true}
             animationSpeed={80000}
-            // infinite
           >
-            <img src={THYicon} />
+            <img src={THYicon} alt="THYicon" />
             <br></br>
-            <img src={MERCEDESicon} />
-            <br></br>
-
-            <img src={SAPicon} />
+            <img src={MERCEDESicon} alt="MERCEDESicon" />
             <br></br>
 
-            <img src={ADVISicon} />
+            <img src={ADVISicon} alt="ADVISicon" />
             <br></br>
 
-            <img src={SIEMENicon} />
+            <img src={SIEMENicon} alt="SIEMENicon" />
             <br></br>
 
-            <img src={DHLicon} />
+            <img src={DHLicon} alt="DHLicon" />
             <br></br>
 
-            <img src={Tsystemsicon} />
+            <img src={Tsystemsicon} alt="Tsystemsicon" />
             <br></br>
 
-            <img src={AUDIicon} />
+            <img src={AUDIicon} alt="AUDIicon" />
             <br></br>
 
-            <img src={Computaicon} />
-            <br></br>
-
-            <img src={SAPicon} />
-            <br></br>
-
-            <img src={Tsystemsicon} />
+            <img src={Computaicon} alt="computaIcon" />
             <br></br>
           </Carousel>
         </div>

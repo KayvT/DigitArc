@@ -16,7 +16,7 @@ class Process extends React.Component {
         <div className="process header-space row">
           <div className="col">
             <div>
-              <img id="icon" src={RequirmentsIcon}></img>
+              <img id="icon" src={RequirmentsIcon} alt="requirmentsIcon"></img>
               <h3>Get Requirements</h3>
             </div>
             <p>
@@ -29,7 +29,7 @@ class Process extends React.Component {
           </div>
           <div className="col">
             <div>
-              <img id="icon" src={ContractIcon}></img>
+              <img id="icon" src={ContractIcon} alt="contractIcon"></img>
               <h3>Sign Contract</h3>
             </div>
             <p>
@@ -42,7 +42,7 @@ class Process extends React.Component {
           </div>
           <div className="col">
             <div>
-              <img id="icon" src={DevelopIcon}></img>
+              <img id="icon" src={DevelopIcon} alt="developIcon"></img>
               <h3>Start Development</h3>
             </div>
             <p>
@@ -55,7 +55,7 @@ class Process extends React.Component {
           </div>
           <div className="col">
             <div>
-              <img id="icon" src={SupportIcon}></img>
+              <img id="icon" src={SupportIcon} alt="supportIcon"></img>
               <h3>Provide Support</h3>
             </div>
             <p>

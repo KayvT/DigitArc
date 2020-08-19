@@ -101,7 +101,7 @@ button:hover {
   justify-content: flex-end;
   font-family: "Poppins SemiBold";
   font-size: 90px;
-  color: #;
+  color: #282828;
 }
 
 .to {
@@ -497,20 +497,25 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  border-radius: 20px;
+  /* padding: 15px; */
+  margin: 17px;
 }
 .item img {
   width: 450px;
   height: 500px;
   border-radius: 20px;
-  border-color: #2fd8c9;
-  box-shadow: 5px 5px 35px #2fd8c9;
+
   object-fit: cover;
 }
-
+.item:hover {
+  border-color: #2fd8c9;
+  box-shadow: 5px 5px 45px #2fd8c9;
+  transition: 0.5s ease-in;
+}
 .item .name {
   font-family: "Poppins", sans-serif;
-  padding-top: 40px;
+  padding-top: 10px;
   font-size: 30px;
 }
 .item .role {
@@ -588,4 +593,36 @@ button:hover {
 .not-found {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
+}
+.btnText_notfound {
+  font-family: "Poppins";
+}
+/* Impressum */
+
+.impressumHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 45px;
+}
+
+.impressum-text {
+  display: flex;
+  font-family: "Poppins ExtraBold", sans-serif;
+  font-size: 90px;
+  text-decoration: underline;
+  text-decoration-color: rgb(47, 216, 201);
+  text-underline-offset: 40px;
+  text-decoration-thickness: 10px;
+  padding-bottom: 6%;
+}
+.details-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  line-height: 60px;
+  padding: 15px;
+  font-family: "Poppins Light";
+  font-size: 30px;
 }

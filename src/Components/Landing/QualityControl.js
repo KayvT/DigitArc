@@ -6,10 +6,8 @@ class QualityControl extends React.Component {
       <div className="header-space">
         <div class="row" style={{ margin: 0 }}>
           <div class="col-4 d-flex flex-column justify-content-center align-items-center">
-            {/* <div className="col-lg-6 "> */}
             <div className="w-75">
               <h1 className="services-text">Control</h1>
-              {/* </div> */}
             </div>
             <div className="ratingContainer">
               <div className="rating">

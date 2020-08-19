@@ -1,5 +1,5 @@
 import React from "react";
-import landingimg from "../../Assets/imgs/Header img/landing.png";
+import landingimg from "../../Assets/imgs/HomeHeaderImg/landing.png";
 class Header extends React.Component {
   render() {
     return (

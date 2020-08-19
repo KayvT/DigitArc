@@ -20,7 +20,7 @@ class Footer extends React.Component {
           {/* </span> */}
         </div>
         <div className="col-lg footerimg">
-          <img src={footerImg} />
+          <img src={footerImg} alt="footerImg" />
         </div>
         <div className="col-lg footercontact">
           <div className="row">
