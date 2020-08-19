@@ -14,6 +14,6 @@ class About extends React.Component {
   }
 }
 
-export default withRouter(About);
+export default About;
 
 // export default withRouter(connect(mapStateToProps, {}), About);

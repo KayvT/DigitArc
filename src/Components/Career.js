@@ -6,9 +6,27 @@ class Career extends React.Component {
     return (
       <>
         <CareerHeader />
-        <Accordin />
-        {/* <Accordin /> */}
-        {/* <Accordin /> */}
+        <div className="col d-flex justify-content-center align-items-center">
+          <h1 className="career-text">Open Positions</h1>
+        </div>
+        <Accordin
+          jobOpening={{
+            title: "Senior FrontEnd Engineer",
+            Description: "This is a job for the strongest of heart",
+          }}
+        />
+        <Accordin
+          jobOpening={{
+            title: "Senior FrontEnd Engineer",
+            Description: "This is a job for the strongest of heart",
+          }}
+        />
+        <Accordin
+          jobOpening={{
+            title: "Senior FrontEnd Engineer",
+            Description: "This is a job for the strongest of heart",
+          }}
+        />
       </>
     );
   }

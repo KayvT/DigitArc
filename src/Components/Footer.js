@@ -8,7 +8,7 @@ import facebookIcon from "../Assets/imgs/FooterIcons/icons8_facebook_128px_1.png
 class Footer extends React.Component {
   render() {
     return (
-      <div className="row footer" style={{ margin: 0 }}>
+      <div className="row footer" style={{ margin: 0, marginTop: 200 }}>
         <div className="col-lg address">
           <img src={logo} alt="logo" />
           {/* <div className="addressSpace"> */}

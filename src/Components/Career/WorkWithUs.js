@@ -5,33 +5,40 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
+import { ThemeProvider } from "@material-ui/styles";
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: "#2fd8c9",
+    },
+
+    secondary: {
+      main: "#282828",
+    },
+  },
+});
 class Accordin extends React.Component {
   render() {
     return (
-      <>
-        <div className="col d-flex justify-content-center align-items-center">
-          <h1 className="career-text">Open Positions</h1>
-        </div>
-        <div>
-          <Accordion>
+      <div className="accordinItem">
+        <MuiThemeProvider theme={theme}>
+          <Accordion color="primary">
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography>Accordion 1</Typography>
+              <Typography>{this.props.jobOpening.title}</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
-              </Typography>
+              <Typography>{this.props.jobOpening.Description}</Typography>
             </AccordionDetails>
           </Accordion>
-        </div>
-      </>
+        </MuiThemeProvider>
+      </div>
     );
   }
 }
+
 export default Accordin;

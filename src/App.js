@@ -7,22 +7,23 @@ import About from "./Components/About";
 import Home from "./Components/Home";
 import Career from "./Components/Career";
 import Footer from "./Components/Footer";
+import notFoundPage from "./Components/404";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        {/* <Route path="/Process" component={Process} /> */}
+    <div className="App">
+      <Navbar />
+      <Router>
+        {/* <Route p</Router>ath="/Process" component={Process} /> */}
         {/* <Switch> */}
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/career" component={Career} />
-
-        {/* </Switch> */}
-        <Footer />
-      </div>
-    </Router>
+        <Route path="/notfound" component={notFoundPage} />
+      </Router>
+      {/* </Switch> */}
+      <Footer />
+    </div>
   );
 }
 
