@@ -139,6 +139,8 @@ button:hover {
   text-decoration: underline;
   text-decoration-color: rgb(47, 216, 201);
   text-decoration-thickness: 10px;
+  /* text-underline-offset: 20px; */
+
   padding-bottom: 6%;
 }
 .services-text-white {
@@ -380,6 +382,7 @@ button:hover {
   text-decoration-color: rgb(47, 216, 201);
   text-decoration-thickness: 10px;
   margin-left: 55px;
+  padding-bottom: 50px;
 }
 
 .clients {
@@ -399,9 +402,9 @@ button:hover {
 .footer {
   /* margin: 0; */
   background-color: rgb(47, 216, 201, 0.5);
-  height: 500px;
-  flex-shrink: 0;
-  /* margin-top: -90px; */
+  /* height: 1000px; */
+  /* flex-shrink: 0; */
+  /* margin-top: 1000px; */
 }
 .address {
   display: flex;
@@ -625,4 +628,9 @@ button:hover {
   padding: 15px;
   font-family: "Poppins Light";
   font-size: 30px;
+}
+
+/* MAP */
+.MapHolder {
+  height: 500px;
 }

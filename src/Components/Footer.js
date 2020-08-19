@@ -12,13 +12,6 @@ class Footer extends React.Component {
       <div className="row footer" style={{ margin: 0, marginTop: 200 }}>
         <div className="col-lg address">
           <img src={logo} alt="logo" />
-          {/* <div className="addressSpace"> */}
-          {/* <span className="companyAddress">
-            +535 971 39 02 noreply@DigitArc.com
-            <br />
-            Ünalan, Emaar Heights, Libadiye Cd No:82 D:E, 34700 Üsküdar/İstanbul
-            {/* </div> */}
-          {/* </span> */}
         </div>
         <div className="col-lg footerimg">
           <img src={footerImg} alt="footerImg" />

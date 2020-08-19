@@ -5,6 +5,7 @@ import WhatWeDo from "../Components/Landing/WhatWeDo";
 import Process from "../Components/Landing/Process";
 import QualityControl from "../Components/Landing/QualityControl";
 import Clients from "../Components/Landing/Clients";
+import Location from "../Components/Landing/Location";
 class Home extends React.Component {
   render() {
     return (
@@ -15,6 +16,7 @@ class Home extends React.Component {
         <Process />
         <QualityControl />
         <Clients />
+        <Location />
       </div>
     );
   }
