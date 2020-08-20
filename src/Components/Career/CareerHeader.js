@@ -1,5 +1,5 @@
 import React from "react";
-import CareerHeaderImg from "../../Assets/imgs/CareerHeader/CareerHeader.png";
+import CareerHeaderImg from "../../Assets/imgs/CareerHeader/CareerHeader.svg";
 class CareerHeader extends React.Component {
   render() {
     return (

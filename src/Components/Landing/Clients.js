@@ -31,13 +31,13 @@ class Clients extends React.Component {
             clickToChange
             arrows
             arrowLeft={
-              <button>
+              <button className="arrowBTN">
                 <ArrowBackIosIcon />
               </button>
             }
             // arrowLeftDisabled={}
             arrowRight={
-              <button>
+              <button className="arrowBTN">
                 <ArrowForwardIosIcon />
               </button>
             }
@@ -71,7 +71,6 @@ class Clients extends React.Component {
             <br></br>
 
             <img src={Computaicon} alt="computaIcon" />
-            <br></br>
           </Carousel>
         </div>
       </>

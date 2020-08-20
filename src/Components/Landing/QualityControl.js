@@ -1,5 +1,5 @@
 import React from "react";
-import ControlSVG from "../../Assets/imgs/Decor SVGS/ControlBG.png";
+import ControlSVG from "../../Assets/imgs/Decor SVGS/Clients.svg";
 class QualityControl extends React.Component {
   render() {
     return (

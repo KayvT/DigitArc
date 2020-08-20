@@ -1,5 +1,5 @@
 import React from "react";
-import landingimg from "../../Assets/imgs/HomeHeaderImg/landing.png";
+import landingimg from "../../Assets/imgs/HomeHeaderImg/landing.svg";
 class Header extends React.Component {
   render() {
     return (
@@ -28,26 +28,3 @@ class Header extends React.Component {
   }
 }
 export default Header;
-/*
- <div className="container-fluid landingframe">
-        <div className="header-space row">
-           <div className="col"> 
-          <div className="landingText">
-            <div className="from">FROM</div>
-            <div className="from-row">
-              <div className="problem">PROBLEM</div>
-              <div className="to">TO</div>
-              <div className="to-row">
-                <div className="solution">SOLUTION</div>
-              </div>
-              </div>
-            </div>
-          </div>
-
-          <img src={landingimg} alt="landing" /> 
-        </div>
-        <div className="row">
-          <img src={landingimg} alt="landing" />
-        </div>
-      </div>
-*/

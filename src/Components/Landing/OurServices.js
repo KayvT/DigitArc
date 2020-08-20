@@ -1,5 +1,5 @@
 import React from "react";
-import svgService from "../../Assets/imgs/Decor SVGS/OUR SERVICE.png";
+import svgService from "../../Assets/imgs/Decor SVGS/OurServices.svg";
 import arcIcon from "../../Assets/imgs/OurServiceIcons/Architecture96px.png";
 import devIcon from "../../Assets/imgs/OurServiceIcons/dev128px.png";
 import optIcon from "../../Assets/imgs/OurServiceIcons/optimization128px.png";

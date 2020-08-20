@@ -1,5 +1,6 @@
 import React from "react";
 import KayPic from "../../Assets/imgs/TeamPics/Kay.JPG";
+
 class OurTeam extends React.Component {
   render() {
     return (

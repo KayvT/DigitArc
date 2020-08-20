@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../Assets/imgs/Logo/WHITELOGOkatman 1.png";
-import footerImg from "../Assets/imgs/Decor SVGS/footerImg.png";
+import footerImg from "../Assets/imgs/Decor SVGS/Footer.svg";
 import linkedinIcon from "../Assets/imgs/FooterIcons/icons8_linkedin_240px_1.png";
 import twitterIcon from "../Assets/imgs/FooterIcons/icons8_twitter_240px_1.png";
 import facebookIcon from "../Assets/imgs/FooterIcons/icons8_facebook_128px_1.png";

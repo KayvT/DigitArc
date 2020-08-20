@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -229,7 +227,7 @@ button:hover {
 /*  WHAT WE DO SECTION */
 
 .bg {
-  background-image: url("../../Assets/imgs/Decor SVGS/WHATWEDO.png");
+  background-image: url("../../Assets/imgs/Decor SVGS/WhatWeDo.svg");
   height: 1550px;
   /* background-color: rgb(112, 112, 112, 0.1); */
   /* border-radius: 50; */
@@ -244,10 +242,11 @@ button:hover {
 .WhatweDoBox {
   justify-content: center;
   align-items: center;
-  padding-left: 200px;
-  padding-right: 200px;
+  /* padding-left: 200px; */
+  /* padding-right: 200px; */
   padding-bottom: 100px;
-  /* margin-right: auto; */
+  /* margin: auto; */
+  margin-right: auto;
   /* margin-left: auto; */
 }
 .box-upper {
@@ -396,7 +395,9 @@ button:hover {
   height: 50px;
   /* margin: 40px; */
 }
-
+.arrowBTN {
+  width: 50px;
+}
 /* FOOTER */
 
 .footer {

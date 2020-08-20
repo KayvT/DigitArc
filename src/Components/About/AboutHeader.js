@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderImg from "../../Assets/imgs/AboutHeader/AboutHeaderImg.png";
+import HeaderImg from "../../Assets/imgs/AboutHeader/AboutHeaderImg.svg";
 class AboutHeader extends React.Component {
   render() {
     return (
