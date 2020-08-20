@@ -13,9 +13,9 @@ class Navbar extends React.Component {
             <Link to="/">
               <li>Home</li>
             </Link>
-            <Link to="/process">
-              <li>Process</li>
-            </Link>
+            {/* <Link to="/process"> */}
+            {/* <li>Process</li> */}
+            {/* </Link> */}
             <Link to="/career">
               <li>Career</li>
             </Link>

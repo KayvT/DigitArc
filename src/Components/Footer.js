@@ -18,7 +18,6 @@ class Footer extends React.Component {
         </div>
         <div className="col-lg footercontact">
           <div className="row">
-            <Link to="/impressum">Impressum</Link>
             <a href="#">
               <img src={linkedinIcon} alt="linkedinicon" />
             </a>
@@ -37,6 +36,9 @@ class Footer extends React.Component {
             <a href="#">
               <img src={facebookIcon} alt="facebookicon" href="#" />
             </a>
+          </div>
+          <div className="row">
+            <Link to="/impressum">Impressum</Link>
           </div>
         </div>
       </div>
