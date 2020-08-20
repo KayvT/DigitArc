@@ -17,6 +17,7 @@ class Clients extends React.Component {
     return (
       <>
         <div
+          id="clients"
           className="row header-space"
           style={{ marginRight: 0, marginLeft: 0 }}
         >
@@ -29,22 +30,22 @@ class Clients extends React.Component {
         <div className="header-space">
           <Carousel
             clickToChange
-            arrows
-            arrowLeft={
-              <button className="arrowBTN">
-                <ArrowBackIosIcon />
-              </button>
-            }
+            // arrows
+            // arrowLeft={
+            //   <button className="arrowBTN">
+            //     <ArrowBackIosIcon />
+            //   </button>
+            // }
             // arrowLeftDisabled={}
-            arrowRight={
-              <button className="arrowBTN">
-                <ArrowForwardIosIcon />
-              </button>
-            }
-            addArrowClickHandler={true}
-            // infinite={true}
+            // arrowRight={
+            //   <button className="arrowBTN">
+            //     <ArrowForwardIosIcon />
+            //   </button>
+            // }
+            // addArrowClickHandler={true}
+            infinite={true}
             // autoPlay={true}
-            slidesPerPage={5}
+            slidesPerPage={7}
             // centered={true}
             // animationSpeed={80000}
           >
@@ -71,6 +72,7 @@ class Clients extends React.Component {
             <br></br>
 
             <img src={Computaicon} alt="computaIcon" />
+            <br></br>
           </Carousel>
         </div>
       </>

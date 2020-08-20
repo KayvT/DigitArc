@@ -3,7 +3,7 @@ import ControlSVG from "../../Assets/imgs/Decor SVGS/Clients.svg";
 class QualityControl extends React.Component {
   render() {
     return (
-      <div className="header-space">
+      <div id="quality" className="header-space">
         <div className="row" style={{ margin: 0 }}>
           <div className="col-4 d-flex flex-column justify-content-center align-items-center">
             <div className="w-75">

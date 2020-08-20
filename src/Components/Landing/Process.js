@@ -8,7 +8,10 @@ class Process extends React.Component {
   render() {
     return (
       <>
-        <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+        <div
+          id="process"
+          className="col-lg-6 d-flex flex-column justify-content-center align-items-center"
+        >
           <div className="w-75">
             <h1 className="services-text">Process</h1>
           </div>

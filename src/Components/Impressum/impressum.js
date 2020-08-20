@@ -1,5 +1,5 @@
 import React from "react";
-import ImpressumHeaderImg from "../../Assets/imgs/impressumHeaderImg/Impressum.png";
+import ImpressumHeaderImg from "../../Assets/imgs/impressumHeaderImg/Impressum.svg";
 
 class Impressum extends React.Component {
   render() {

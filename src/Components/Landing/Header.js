@@ -3,7 +3,6 @@ import landingimg from "../../Assets/imgs/HomeHeaderImg/landing.svg";
 class Header extends React.Component {
   render() {
     return (
-      // <>
       <div className="landingframe header-space">
         <div className="row">
           <div className="landingText">
@@ -23,7 +22,6 @@ class Header extends React.Component {
           <img src={landingimg} alt="landing" />
         </div>
       </div>
-      // </>
     );
   }
 }

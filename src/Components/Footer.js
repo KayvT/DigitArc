@@ -39,6 +39,8 @@ class Footer extends React.Component {
           </div>
           <div className="row">
             <Link to="/impressum">Impressum</Link>
+            <Link to="/career">Career</Link>
+            <Link to="/about">About</Link>
           </div>
         </div>
       </div>

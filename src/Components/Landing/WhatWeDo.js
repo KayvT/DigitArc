@@ -8,7 +8,10 @@ class WhatWeDo extends React.Component {
   render() {
     return (
       <div className="bg">
-        <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+        <div
+          id="whatwedo"
+          className="col-lg-6 d-flex flex-column justify-content-center align-items-center"
+        >
           <div className="w-75 pad">
             <h1 className="services-text-white">WHAT WE DO</h1>
           </div>
@@ -18,9 +21,7 @@ class WhatWeDo extends React.Component {
             <div className="box-one col">
               <div className="title-icon">
                 <h3>Cloud Development and Migration</h3>
-                {/* <div className="test"> */}
                 <img src={CloudIcon} alt="cloudIcon" />
-                {/* </div> */}
               </div>
               <div className="details">
                 Companies of every industry are utilizing the modern cloud

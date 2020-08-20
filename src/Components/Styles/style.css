@@ -29,16 +29,26 @@ button {
   justify-content: space-between;
   align-items: center;
   padding: 10px 10%;
-  background-color: rgb(47, 216, 201, 0.7);
+  /* background-color: rgb(47, 216, 201, 0.7); */
   /* height: 70px; */
   /* box-shadow: 2px 2px 2px -2px rgba(0, 4,0, 0.8); */
 }
-
-.nav_links {
+.Nav {
+  top: 0;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  background-color: #2fd8c9;
+  /* padding-bottom: 20px; */
+}
+nav > .active {
+  border-bottom: 1px solid white;
+}
+/* .nav_links {
   list-style: none;
   padding-top: 20px;
-}
-.nav_links li {
+} */
+/* .nav_links li {
   display: inline-block;
   padding: 0px 20px;
 }
@@ -49,7 +59,23 @@ button {
 }
 .nav_links li:hover {
   color: white;
+} */
+
+nav .scrolllink {
+  font-family: "Poppins Light";
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
 }
+nav .scrolllink:hover {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+/* nav > .active {
+  border-bottom: 1px solid white;
+} */
 
 button {
   padding: 5px 25px;
@@ -72,7 +98,7 @@ button:hover {
   display: flex;
   justify-content: flex-end;
   /* margin-right: -100px; */
-  margin-top: 50px;
+  margin-top: 100px;
   /* align-items: ce; */
   /* align-items: center; */
 }
@@ -83,6 +109,7 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+
 .from {
   display: flex;
   justify-content: flex-start;
@@ -137,7 +164,7 @@ button:hover {
   text-decoration: underline;
   text-decoration-color: rgb(47, 216, 201);
   text-decoration-thickness: 10px;
-  /* text-underline-offset: 20px; */
+  text-underline-offset: 10px;
 
   padding-bottom: 6%;
 }
@@ -150,6 +177,7 @@ button:hover {
   text-decoration-thickness: 10px;
   /* padding-bottom: 6%; */
   padding-top: 150px;
+  text-underline-offset: 10px;
 }
 
 .service-subText {
@@ -229,14 +257,6 @@ button:hover {
 .bg {
   background-image: url("../../Assets/imgs/Decor SVGS/WhatWeDo.svg");
   height: 1550px;
-  /* background-color: rgb(112, 112, 112, 0.1); */
-  /* border-radius: 50; */
-  /* -webkit-box-shadow: 3px 14px 30px 0px;
-  -moz-box-shadow: 3px 14px 30px 0px;
-  box-shadow: 3px 10px 30px 0px rgb(112, 112, 112, 0.4); */
-  /* width: 1500px; */
-  /* border-radius: 25px; */
-  /* margin: auto; */
 }
 
 .WhatweDoBox {
@@ -244,12 +264,16 @@ button:hover {
   align-items: center;
   /* padding-left: 200px; */
   /* padding-right: 200px; */
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
   /* margin: auto; */
   margin-right: auto;
   /* margin-left: auto; */
 }
 .box-upper {
+  display: flex;
+  justify-content: center;
+}
+.box-lower {
   display: flex;
   justify-content: center;
 }
@@ -288,10 +312,7 @@ button:hover {
   -webkit-background-clip: padding-box; /* for Safari */
   background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
-.box-lower {
-  display: flex;
-  justify-content: center;
-}
+
 .title-icon {
   display: flex;
   font-family: "Poppins Medium", sans-serif;
@@ -381,6 +402,8 @@ button:hover {
   text-decoration-color: rgb(47, 216, 201);
   text-decoration-thickness: 10px;
   margin-left: 55px;
+  text-underline-offset: 10px;
+
   padding-bottom: 50px;
 }
 
@@ -566,6 +589,7 @@ button:hover {
   text-underline-offset: 40px;
   text-decoration-thickness: 10px;
   padding-bottom: 6%;
+  text-underline-offset: 10px;
 }
 /* CAREER SECTION */
 .accordinItem {
@@ -615,6 +639,7 @@ button:hover {
   text-decoration-color: rgb(47, 216, 201);
   text-underline-offset: 40px;
   text-decoration-thickness: 10px;
+  /* text-underline-offset: 15px; */
   padding-bottom: 6%;
 }
 .details-text {
