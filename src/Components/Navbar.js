@@ -16,10 +16,6 @@ class Navbar extends React.Component {
             <MenuIcon />
           </label>
           <nav>
-            {/* <div className="nav_links"> */}
-            {/* <Link to="/">
-              <li>Home</li>
-            </Link> */}
             <ScrollLink
               className="scrolllink"
               activeClass="active"
@@ -69,7 +65,6 @@ class Navbar extends React.Component {
             >
               Clients
             </ScrollLink>
-            {/* </div> */}
           </nav>
         </div>
       </div>
