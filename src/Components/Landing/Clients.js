@@ -8,8 +8,6 @@ import ADVISicon from "../../Assets/clients/ADVIS_Logo.png";
 import Computaicon from "../../Assets/clients/1200px-Computacenter_logo.svg.png";
 import DHLicon from "../../Assets/clients/dhl-logo.png";
 import AUDIicon from "../../Assets/clients/audi.png";
-import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
-import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 class Clients extends React.Component {

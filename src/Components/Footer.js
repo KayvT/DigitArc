@@ -18,7 +18,11 @@ class Footer extends React.Component {
         </div>
         <div className="col-lg footercontact">
           <div className="row">
-            <a href="#">
+            <a
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/company/digitarc/"
+              target="_blank"
+            >
               <img src={linkedinIcon} alt="linkedinicon" />
             </a>
           </div>
@@ -26,14 +30,22 @@ class Footer extends React.Component {
             {/* <span> */}
             {/* <a href="#">Contact</a> */}
             {/* </span> */}
-            <a href="#">
+            <a
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/company/digitarc/"
+              target="_blank"
+            >
               <img src={twitterIcon} alt="twittericon" />
             </a>
           </div>
           <div className="row">
             {/* <a href="#">Privacy Policy</a> */}
 
-            <a href="#">
+            <a
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/company/digitarc/"
+              target="_blank"
+            >
               <img src={facebookIcon} alt="facebookicon" href="#" />
             </a>
           </div>

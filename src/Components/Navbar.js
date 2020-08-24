@@ -12,7 +12,7 @@ class Navbar extends React.Component {
             <img className="logo" src={logo} alt="logo" />
           </Link>
           <input type="checkbox" id="check" />
-          <label for="check" class="checkbtn">
+          <label htmlFor="check" className="checkbtn">
             <MenuIcon />
           </label>
           <nav>
