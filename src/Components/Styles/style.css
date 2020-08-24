@@ -4,6 +4,7 @@
   padding: 0;
   /* background-color: #24252a; */
   /* overflow-x: hidden; */
+  font-size: 25;
 }
 
 .pad {
@@ -15,7 +16,7 @@ a,
 button {
   font-family: "Poppins ExtraLight", sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1rem;
   color: #ffff;
   text-decoration: none;
 }
@@ -76,6 +77,19 @@ nav .scrolllink:hover {
 /* nav > .active {
   border-bottom: 1px solid white;
 } */
+
+.checkbtn {
+  /* font-size: 30px; */
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin-right: -50 0px;
+  float: right;
+  display: none;
+}
+#check {
+  display: none;
+}
 
 button {
   padding: 5px 25px;
@@ -656,4 +670,16 @@ button:hover {
 /* MAP */
 .MapHolder {
   height: 500px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 900px) {
+  nav {
+    display: none;
+  }
+}
+@media (max-width: 860) {
+  .checkbtn {
+    display: block;
+  }
 }

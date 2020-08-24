@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../Assets/imgs/Logo/WHITELOGOkatman 1.png";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
+import MenuIcon from "@material-ui/icons/Menu";
 class Navbar extends React.Component {
   render() {
     return (
@@ -10,6 +11,10 @@ class Navbar extends React.Component {
           <Link to="/">
             <img className="logo" src={logo} alt="logo" />
           </Link>
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <MenuIcon />
+          </label>
           <nav>
             {/* <div className="nav_links"> */}
             {/* <Link to="/">
