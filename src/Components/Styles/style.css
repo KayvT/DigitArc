@@ -80,7 +80,7 @@ nav .scrolllink:hover {
 
 .checkbtn {
   /* font-size: 30px; */
-  color: white;
+  color: black;
   cursor: pointer;
   display: block;
   margin-right: -50 0px;
@@ -435,6 +435,31 @@ button:hover {
 .arrowBTN {
   width: 50px;
 }
+
+/* MAP */
+.MapHolder {
+  /* position: relative; */
+  height: 400px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(2, 1.5fr);
+  justify-items: stretch;
+  align-items: stretch;
+  /* grid-auto-rows: 75px; */
+  grid-gap: 25px;
+  /* align-content: center; */
+  /* justify-content: center; */
+}
+.MapHolder div {
+  /* display: grid; */
+  /* justify-content: center; */
+  /* justify-items: center; */
+  /* align-items: center; */
+  /* margin: auto; */
+  /* justify-content: center; */
+  /* margin-right: auto; */
+}
+
 /* FOOTER */
 
 .footer {
@@ -667,19 +692,19 @@ button:hover {
   font-size: 30px;
 }
 
-/* MAP */
-.MapHolder {
-  height: 500px;
-}
-
 /* MEDIA QUERIES */
-@media screen and (max-width: 900px) {
+@media all and (min-width: 900px) {
   nav {
     display: none;
   }
 }
-@media (max-width: 860) {
+@media all and (min-width: 860) {
   .checkbtn {
-    display: block;
+    display: none;
+  }
+}
+@media all and (min-width: 900) {
+  * {
+    font-size: 50px;
   }
 }
