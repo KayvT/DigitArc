@@ -11,7 +11,7 @@ class Footer extends React.Component {
     return (
       <div className="row footer" style={{ margin: 0, marginTop: 200 }}>
         <div className="col-lg address">
-          <img src={logo} alt="logo" />
+          <img id="footerlogo" src={logo} alt="logo" />
         </div>
         <div className="col-lg footerimg">
           <img src={footerImg} alt="footerImg" />
@@ -49,7 +49,7 @@ class Footer extends React.Component {
               <img src={facebookIcon} alt="facebookicon" href="#" />
             </a>
           </div>
-          <div className="row">
+          <div className="row pages" style={{ margin: 0 }}>
             <Link to="/impressum">Impressum</Link>
             <Link to="/career">Career</Link>
             <Link to="/about">About</Link>

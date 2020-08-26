@@ -39,7 +39,7 @@ button {
   top: 0;
   z-index: 2000;
   position: fixed;
-  min-width: 100%;
+  width: 100%;
   background-color: #2fd8c9;
 }
 nav > .active {
@@ -322,17 +322,22 @@ button:hover {
 }
 
 /* PROCESS SECTION */
-.process {
+
+.process .col {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding-top: 20px;
-  padding-left: 250px;
-  padding-right: 250px;
-  max-width: 1900px;
+  flex-grow: inherit;
+  /* margin: auto; */
+  /* align-items: flex-end; */
 }
+.process {
+  margin: auto;
+  justify-content: center;
+}
+
 #icon {
-  height: 80px;
+  height: 70px;
 }
 .process h3 {
   font-family: "Poppins", sans-serif;
@@ -340,6 +345,7 @@ button:hover {
 }
 .process p {
   font-family: "Poppins ExtraLight", sans-serif;
+  width: 270px;
 }
 
 /* QUALITY CONTROL SECTION */
@@ -384,7 +390,6 @@ button:hover {
   text-decoration-thickness: 10px;
   margin-left: 55px;
   text-underline-offset: 10px;
-
   padding-bottom: 50px;
 }
 
@@ -398,9 +403,6 @@ button:hover {
 #clienticon {
   height: 50px;
   /* margin: 40px; */
-}
-.arrowBTN {
-  width: 50px;
 }
 
 /* MAP */
@@ -416,15 +418,6 @@ button:hover {
   grid-gap: 25px;
   /* align-content: center; */
   /* justify-content: center; */
-}
-.MapHolder div {
-  /* display: grid; */
-  /* justify-content: center; */
-  /* justify-items: center; */
-  /* align-items: center; */
-  /* margin: auto; */
-  /* justify-content: center; */
-  /* margin-right: auto; */
 }
 
 /* FOOTER */
@@ -506,16 +499,6 @@ button:hover {
   margin-right: -200px;
 }
 
-/* TEAM SECTION */
-/* .grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 80px auto 80px; 
-  column-gap: 10px;
-  row-gap: 15px;
-} */
-
 .box {
   display: flex;
   flex-wrap: wrap;
@@ -595,7 +578,7 @@ button:hover {
   text-underline-offset: 40px;
   text-decoration-thickness: 10px;
   padding-bottom: 6%;
-  text-underline-offset: 10px;
+  text-underline-offset: 30px;
 }
 /* CAREER SECTION */
 .accordinItem {

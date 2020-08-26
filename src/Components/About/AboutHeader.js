@@ -4,7 +4,10 @@ class AboutHeader extends React.Component {
   render() {
     return (
       <div>
-        <div className="row" style={{ margin: 0, marginBottom: "150px" }}>
+        <div
+          className="row aboutrow"
+          style={{ margin: 0, marginBottom: "150px" }}
+        >
           <div className="col-4 aboutTitle">
             <span className="about">About</span>
             <span className="us">US</span>

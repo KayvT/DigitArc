@@ -5,7 +5,7 @@ class CareerHeader extends React.Component {
     return (
       <div>
         <div
-          className="row"
+          className="row career"
           style={{ marginTop: 100, marginRight: 0, marginBottom: 100 }}
         >
           <div className="col-4 careerTitle">
@@ -14,7 +14,7 @@ class CareerHeader extends React.Component {
             <span className="us">US</span>
           </div>
           <div className="col-8">
-            <img src={CareerHeaderImg} alt="aboutheader" />
+            <img id="headerImg" src={CareerHeaderImg} alt="aboutheader" />
           </div>
         </div>
       </div>

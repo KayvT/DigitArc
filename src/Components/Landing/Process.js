@@ -16,11 +16,11 @@ class Process extends React.Component {
             <h1 className="services-text">Process</h1>
           </div>
         </div>
-        <div className="process header-space row">
+        <div className="process header-space row" style={{ margin: 0 }}>
           <div className="col">
             <div>
               <img id="icon" src={RequirmentsIcon} alt="requirmentsIcon"></img>
-              <h3>Get Requirements</h3>
+              <h3>Requirements</h3>
             </div>
             <p>
               State your business' requirements for digitalization. At Digitarc
@@ -33,40 +33,40 @@ class Process extends React.Component {
           <div className="col">
             <div>
               <img id="icon" src={ContractIcon} alt="contractIcon"></img>
-              <h3>Sign Contract</h3>
+              <h3>Contract</h3>
             </div>
             <p>
-              After signing the contact for both software development and
-              software counselling, we give high priority importance to every
-              single one of our clients. We report mostly on daily basis to
-              serve our clients with the best of us. The prolonging process of
-              the development
+              State your business' requirements for digitalization. At Digitarc
+              LLC., we consider every single detail to fulfill the requirements
+              of the software on our behalf. After carefully inspecting the
+              requirements, it gets possible to contemplate how the proceeding
+              process will be.
             </p>
           </div>
           <div className="col">
             <div>
-              <img id="icon" src={DevelopIcon} alt="developIcon"></img>
-              <h3>Start Development</h3>
+              <img id="icon" src={ContractIcon} alt="developIcon"></img>
+              <h3>Development</h3>
             </div>
             <p>
-              The software development process is illustrated on every angle to
-              the client whenever they want to see. Every aspect of the process
-              can easily be examined by the client and any feedback is accepted
-              on our behalf. The prolonging process of the development can be
-              inspected on every single aspect.
+              State your business' requirements for digitalization. At Digitarc
+              LLC., we consider every single detail to fulfill the requirements
+              of the software on our behalf. After carefully inspecting the
+              requirements, it gets possible to contemplate how the proceeding
+              process will be.
             </p>
           </div>
           <div className="col">
             <div>
               <img id="icon" src={SupportIcon} alt="supportIcon"></img>
-              <h3>Provide Support</h3>
+              <h3>Support</h3>
             </div>
             <p>
-              After the acceptance of the software by the client, we serve the
-              maintenance for both the continuity of your software and keeping
-              all the innovations in tech industry to keep your software up to
-              date. The prolonging process of the development can be inspected
-              on every single aspect.
+              State your business' requirements for digitalization. At Digitarc
+              LLC., we consider every single detail to fulfill the requirements
+              of the software on our behalf. After carefully inspecting the
+              requirements, it gets possible to contemplate how the proceeding
+              process will be.
             </p>
           </div>
         </div>

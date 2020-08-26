@@ -15,28 +15,38 @@ class MyMap extends React.Component {
       <>
         <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <div className="w-100">
-            <h1 className="clients-text">Contact Us!</h1>
+            <h1 id="location" className="clients-text">
+              Contact Us!
+            </h1>
           </div>
         </div>
         <div className="MapHolder">
           <div>
             <Map
               google={this.props.google}
-              zoom={5}
+              zoom={15}
+              initialCenter={{ lat: 50.77603, lng: 7.275839 }}
               styles={this.props.mapStyle}
               containerStyle={{
                 marginLeft: "150px",
                 width: "40%",
                 height: "50%",
               }}
-              // style={{ width: "40%" }}
-            ></Map>
+            >
+              <Marker
+                onClick={this.onMarkerClick}
+                title={"Turkey Branch"}
+                name={"DigitArc"}
+                position={{ lat: 50.77603, lng: 7.275839 }}
+              />
+            </Map>
           </div>
           <div>
             <Map
               google={this.props.google}
-              zoom={5}
+              zoom={15}
               styles={this.props.mapStyle}
+              initialCenter={{ lat: 41.003485, lng: 29.071986 }}
               containerStyle={{
                 // display: "grid",
                 // display: "flex",
@@ -44,7 +54,14 @@ class MyMap extends React.Component {
                 width: "40%",
                 height: "50%",
               }}
-            ></Map>
+            >
+              <Marker
+                onClick={this.onMarkerClick}
+                name={"DigitArc"}
+                position={{ lat: 41.003234, lng: 29.071857 }}
+                title={"Germany Branch"}
+              />
+            </Map>
           </div>
         </div>
       </>
@@ -81,12 +98,7 @@ export default GoogleApiWrapper({
             justifyContent: "flex-start",
           }}
         >
-          <Marker
-            onClick={this.onMarkerClick}
-            name={"DigitArc"}
-            position={{ lat: 41.003234, lng: 29.071857 }}
-            title={"Germany Branch"}
-          />
+     
           <Marker
             onClick={this.onMarkerClick}
             title={"Turkey Branch"}
