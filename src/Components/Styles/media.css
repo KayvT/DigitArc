@@ -1,0 +1,33 @@
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1280px) {
+  /* .header nav {
+    padding-right: 0;
+  } */
+  #servicesBlob {
+    width: 85%;
+  }
+  .card-body-custom {
+    height: 130px;
+    width: 130px;
+  }
+  .tableIcon {
+    height: 50px;
+  }
+  .cardText,
+  .cardText-blue {
+    font-size: 18px;
+  }
+
+  .services-text,
+  .services-text-white {
+    font-size: 55px;
+  }
+  .service-subText {
+    font-size: 15px;
+  }
+  #servicesbutton {
+    font-size: 15px;
+    border-radius: 50px;
+  }
+}

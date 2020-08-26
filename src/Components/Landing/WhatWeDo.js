@@ -20,7 +20,7 @@ class WhatWeDo extends React.Component {
           <div className="box-upper row">
             <div className="box-one col">
               <div className="title-icon">
-                <h3>Cloud Development and Migration</h3>
+                <h3>Cloud Development & Migration</h3>
                 <img src={CloudIcon} alt="cloudIcon" />
               </div>
               <div className="details">

@@ -11,10 +11,10 @@ class Navbar extends React.Component {
           <Link to="/">
             <img className="logo" src={logo} alt="logo" />
           </Link>
-          <input type="checkbox" id="check" />
+          {/* <input type="checkbox" id="check" />
           <label htmlFor="check" className="checkbtn">
             <MenuIcon />
-          </label>
+          </label> */}
           <nav>
             <ScrollLink
               className="scrolllink"

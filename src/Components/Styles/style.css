@@ -27,9 +27,10 @@ button {
 }
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 10px 10%;
+  padding: 15px;
+  /* padding: 10px 10px; */
   /* background-color: rgb(47, 216, 201, 0.7); */
   /* height: 70px; */
   /* box-shadow: 2px 2px 2px -2px rgba(0, 4,0, 0.8); */
@@ -38,35 +39,18 @@ button {
   top: 0;
   z-index: 2000;
   position: fixed;
-  width: 100%;
+  min-width: 100%;
   background-color: #2fd8c9;
-  /* padding-bottom: 20px; */
 }
 nav > .active {
   border-bottom: 1px solid white;
 }
-/* .nav_links {
-  list-style: none;
-  padding-top: 20px;
-} */
-/* .nav_links li {
-  display: inline-block;
-  padding: 0px 20px;
+nav {
+  display: grid;
 }
-.nav_links li {
-  text-decoration: none;
-  color: black;
-  transition: all 0.5s ease 0s;
-}
-.nav_links li:hover {
-  color: white;
-} */
-
 nav .scrolllink {
+  padding: 10px;
   font-family: "Poppins Light";
-  padding: 20px;
-  list-style: none;
-  text-decoration: none;
   color: white;
 }
 nav .scrolllink:hover {
@@ -202,14 +186,10 @@ button:hover {
   /* padding-left: 0px; */
 }
 .service-layout {
-  /* position: relative; */
   display: flex;
   flex-direction: column;
 }
 
-/* .row {
-  margin-bottom: 180px;
-} */
 .header-space {
   margin-bottom: 180px;
 }
@@ -228,16 +208,11 @@ button:hover {
   /* flex-wrap: wrap-reverse; */
 }
 .card-body-custom {
-  /* display: flex; */
-  /* min-height: 100vh; */
   background-color: #2fd8c9;
   border: none;
   border-radius: 8px;
   height: 200px;
   width: 200px;
-  /* flex: 0 0 181px; */
-  /* width: auto; */
-  /* width: 100px; */
 }
 .white {
   background-color: white;
@@ -336,15 +311,7 @@ button:hover {
   justify-content: left;
   padding: 20px;
 }
-/* .subHead {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-/* .test {
-  display: flex;
-  align-items: flex-end;
-} */
+
 .title-icon img {
   height: 100px;
 }
@@ -690,21 +657,4 @@ button:hover {
   padding: 15px;
   font-family: "Poppins Light";
   font-size: 30px;
-}
-
-/* MEDIA QUERIES */
-@media all and (min-width: 900px) {
-  nav {
-    display: none;
-  }
-}
-@media all and (min-width: 860) {
-  .checkbtn {
-    display: none;
-  }
-}
-@media all and (min-width: 900) {
-  * {
-    font-size: 50px;
-  }
 }

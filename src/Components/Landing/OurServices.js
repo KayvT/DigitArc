@@ -25,11 +25,14 @@ class OurServices extends React.Component {
                 technologies and experience to serve better IT support for
                 better business outcomes.
               </p>
-              <button className="btnText">GET STARTED!</button>
+              <button id="servicesbutton" className="btnText">
+                GET STARTED!
+              </button>
             </div>
           </div>
           <div className="col-lg-6 service-layout d-flex justify-content-center align-items-center">
             <img
+              id="servicesBlob"
               style={{
                 position: "absolute",
                 top: "50%",

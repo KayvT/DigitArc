@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import "./Components/Styles/style.css";
+import "./Components/Styles/media.css";
+
 import "bootstrap/dist/css/bootstrap.css";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
