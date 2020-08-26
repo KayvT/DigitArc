@@ -17,7 +17,7 @@ class WhatWeDo extends React.Component {
           </div>
         </div>
         <div className="WhatweDoBox header-space container">
-          <div className="box-upper row">
+          <div className="box-upper row" style={{ margin: 0 }}>
             <div className="box-one col">
               <div className="title-icon">
                 <h3>Cloud Development & Migration</h3>
@@ -49,7 +49,7 @@ class WhatWeDo extends React.Component {
               </div>
             </div>
           </div>
-          <div className="box-lower row">
+          <div className="box-lower row " style={{ margin: 0 }}>
             <div className="box-three col">
               <div className="title-icon">
                 <h3>Frontend Software Development</h3>

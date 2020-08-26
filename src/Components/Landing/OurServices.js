@@ -11,7 +11,7 @@ class OurServices extends React.Component {
   render() {
     return (
       <div className="container-fluid">
-        <div className="header-space row">
+        <div className="header-space row" style={{ margin: 0 }}>
           <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
             <div className="w-75">
               <h1 className="services-text">OUR SERVICES</h1>

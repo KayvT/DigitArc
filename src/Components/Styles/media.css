@@ -1,6 +1,6 @@
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1200px) {
   #servicesBlob {
     width: 85%;
   }
@@ -45,9 +45,6 @@
   }
   .MapHolder div {
     margin-right: 100px;
-    /* height: 400px; */
-    /* display: flex; */
-    /* flex-direction: column; */
   }
   #location {
     padding-bottom: 40px;
@@ -85,5 +82,72 @@
   }
   .us {
     margin-right: -400px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #landingimg {
+    width: 70%;
+    margin: auto;
+  }
+  #servicesBlob {
+    width: 75%;
+  }
+  .card-body-custom {
+    height: 100px;
+    width: 100px;
+  }
+  .tableIcon {
+    height: 40px;
+  }
+  .cardText,
+  .cardText-blue {
+    font-size: 15px;
+  }
+  .services-text,
+  .services-text-white {
+    font-size: 40px;
+  }
+  .service-subText {
+    font-size: 12px;
+  }
+  .title-icon {
+    /* font-family: "Poppins Medium", sans-serif; */
+    align-items: baseline;
+  }
+  .WhatweDoBox h3 {
+    font-size: 20px;
+  }
+  .WhatweDoBox img {
+    height: 60px;
+    padding-left: 20px;
+  }
+  .details {
+    font-size: 15px;
+    padding: 20px;
+  }
+  .process {
+    font-size: 20px;
+  }
+  .process h3 {
+    font-size: 30px;
+  }
+  #icon {
+    height: 70px;
+  }
+  .process p {
+    width: 350px;
+    line-height: 25px;
+  }
+  .rating {
+    margin-left: 0;
+    margin-right: 50px;
+  }
+  .clients-text {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  #quality {
+    padding-top: 50px;
   }
 }

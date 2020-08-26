@@ -4,7 +4,7 @@ class Header extends React.Component {
   render() {
     return (
       <div className="landingframe header-space">
-        <div className="row">
+        <div className="row" style={{ margin: 0 }}>
           <div className="landingText">
             <div className="from">FROM</div>
             <div className="from-row">
@@ -18,8 +18,8 @@ class Header extends React.Component {
         </div>
         <button className="btnText landingBTN">GET STARTED!</button>
 
-        <div className="row">
-          <img src={landingimg} alt="landing" />
+        <div className="row" style={{ margin: 0 }}>
+          <img id="landingimg" src={landingimg} alt="landing" />
         </div>
       </div>
     );

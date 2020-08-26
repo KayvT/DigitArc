@@ -25,7 +25,7 @@ class Clients extends React.Component {
             </div>
           </div>
         </div>
-        <div className="header-space">
+        <div className="header-space clients-imgs">
           <Carousel
             clickToChange
             // arrows
@@ -41,11 +41,11 @@ class Clients extends React.Component {
             //   </button>
             // }
             // addArrowClickHandler={true}
-            infinite={true}
+            // infinite={true}
             // autoPlay={true}
             slidesPerPage={7}
             // centered={true}
-            // animationSpeed={80000}
+            // animationSpeed={60000}
           >
             <img src={THYicon} alt="THYicon" />
             <br></br>
