@@ -10,83 +10,86 @@ import cloudIcon from "../../Assets/imgs/OurServiceIcons/cloud128px.png";
 class OurServices extends React.Component {
   render() {
     return (
-      <div className="container-fluid">
-        <div className="header-space row" style={{ margin: 0 }}>
-          <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
-            <div className="w-75">
-              <h1 className="services-text">OUR SERVICES</h1>
-              <p className="service-subText">
-                Digital Architects LLC. Is an IT solutions company leveraging
-                latest technologies and experience to serve better IT support
-                for better business outcomes. Digital Architects LLC. Is an IT
-                solutions company leveraging latest technologies and experience
-                to serve better IT support for better business outcomes. Digital
-                Architects LLC. Is an IT solutions company leveraging latest
-                technologies and experience to serve better IT support for
-                better business outcomes.
-              </p>
-              <button id="servicesbutton" className="btnText">
-                GET STARTED!
-              </button>
-            </div>
+      // <div className="container-fluid">
+      <div className="header-space row">
+        <div
+          id="text-column"
+          className="col-lg-6 d-flex flex-column justify-content-center align-items-center"
+        >
+          <div className="w-75">
+            <h1 className="services-text">OUR SERVICES</h1>
+            <p className="service-subText">
+              Digital Architects LLC. Is an IT solutions company leveraging
+              latest technologies and experience to serve better IT support for
+              better business outcomes. Digital Architects LLC. Is an IT
+              solutions company leveraging latest technologies and experience to
+              serve better IT support for better business outcomes. Digital
+              Architects LLC. Is an IT solutions company leveraging latest
+              technologies and experience to serve better IT support for better
+              business outcomes.
+            </p>
+            <button id="servicesbutton" className="btnText">
+              GET STARTED!
+            </button>
           </div>
-          <div className="col-lg-6 service-layout d-flex justify-content-center align-items-center">
-            <img
-              id="servicesBlob"
-              style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-              }}
-              src={svgService}
-              alt="svgServices"
-            />
-            <div
-              className="d-flex w-75 justify-content-center align-items-center"
-              style={{ gap: "15px", flexWrap: "wrap" }}
-            >
-              <div className="card-body-custom shadow index">
-                <div className="content">
-                  <img className="tableIcon" src={arcIcon} alt="arcIcon" />
-                  <h3 className="cardText">Architecture</h3>
-                </div>
+        </div>
+        <div className="col-lg-6 service-layout d-flex justify-content-center align-items-center">
+          <img
+            id="servicesBlob"
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+            }}
+            src={svgService}
+            alt="svgServices"
+          />
+          <div
+            className="d-flex w-75 justify-content-center align-items-center"
+            style={{ gap: "15px", flexWrap: "wrap" }}
+          >
+            <div className="card-body-custom shadow index">
+              <div className="content">
+                <img className="tableIcon" src={arcIcon} alt="arcIcon" />
+                <h3 className="cardText">Architecture</h3>
               </div>
-              <div className="card-body-custom white shadow index">
-                <div className="content">
-                  <img className="tableIcon" src={devIcon} alt="devIcon" />
-                  <h3 className="cardText-blue">Development</h3>
-                </div>
+            </div>
+            <div className="card-body-custom white shadow index">
+              <div className="content">
+                <img className="tableIcon" src={devIcon} alt="devIcon" />
+                <h3 className="cardText-blue">Development</h3>
               </div>
-              <div className="card-body-custom shadow index">
-                <div className="content">
-                  <img className="tableIcon" src={optIcon} alt="optIcon" />
-                  <h3 className="cardText">Optimization</h3>
-                </div>
+            </div>
+            <div className="card-body-custom shadow index">
+              <div className="content">
+                <img className="tableIcon" src={optIcon} alt="optIcon" />
+                <h3 className="cardText">Optimization</h3>
               </div>
-              <div className="card-body-custom white shadow index">
-                {" "}
-                <div className="content">
-                  <img className="tableIcon" src={workIcon} alt="workIcon" />
-                  <h3 className="cardText-blue">Workflow</h3>
-                </div>
+            </div>
+            <div className="card-body-custom white shadow index">
+              {/* {" "} */}
+              <div className="content">
+                <img className="tableIcon" src={workIcon} alt="workIcon" />
+                <h3 className="cardText-blue">Workflow</h3>
               </div>
-              <div className="card-body-custom shadow index">
-                <div className="content">
-                  <img className="tableIcon" src={iotIcon} alt="iotIcon" />
-                  <h3 className="cardText">IOT</h3>
-                </div>
+            </div>
+            <div className="card-body-custom shadow index">
+              <div className="content">
+                <img className="tableIcon" src={iotIcon} alt="iotIcon" />
+                <h3 className="cardText">IOT</h3>
               </div>
-              <div className="card-body-custom white shadow index">
-                <div className="content">
-                  <img className="tableIcon" src={cloudIcon} alt="cloudIcon" />
-                  <h3 className="cardText-blue">Cloud</h3>
-                </div>
+            </div>
+            <div className="card-body-custom white shadow index">
+              <div className="content">
+                <img className="tableIcon" src={cloudIcon} alt="cloudIcon" />
+                <h3 className="cardText-blue">Cloud</h3>
               </div>
             </div>
           </div>
         </div>
       </div>
+      // </div>
     );
   }
 }

@@ -151,3 +151,31 @@
     padding-top: 50px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  nav a {
+    display: none;
+    font-size: 14px;
+    /* display: block; */
+    right: 200%;
+  }
+  .checkbtn {
+    display: block;
+    margin-right: -100px;
+    float: right;
+  }
+  #check:checked ~ nav a {
+    transition: 0.5s ease-in;
+    display: block;
+    right: 100%;
+  }
+  #servicesBlob {
+    width: 70%;
+  }
+  #cards {
+    /* margin-top: 100px; */
+  }
+  #text-column {
+    padding-bottom: 150px;
+  }
+}

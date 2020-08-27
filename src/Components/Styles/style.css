@@ -44,9 +44,7 @@ button {
 nav > .active {
   border-bottom: 1px solid white;
 }
-nav {
-  display: grid;
-}
+
 nav .scrolllink {
   padding: 10px;
   font-family: "Poppins Light";
@@ -63,12 +61,12 @@ nav .scrolllink:hover {
 
 .checkbtn {
   /* font-size: 30px; */
-  color: black;
+  color: white;
   cursor: pointer;
-  display: block;
+  display: none;
   margin-right: -50 0px;
   float: right;
-  display: none;
+  /* display: none; */
 }
 #check {
   display: none;
@@ -197,14 +195,10 @@ button:hover {
   margin-bottom: 10%;
   /* margin-left: -40%; */
 }
+
 .card-layout {
   display: flex;
   flex-direction: column;
-  /* align-items: flex-end; */
-  /* justify-content: space-evenly; */
-  margin-top: -50%;
-  /* margin-left: 50%; */
-  /* flex-wrap: wrap-reverse; */
 }
 .card-body-custom {
   background-color: #2fd8c9;
