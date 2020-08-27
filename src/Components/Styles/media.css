@@ -167,7 +167,7 @@
   #check:checked ~ nav a {
     transition: 0.5s ease-in;
     display: block;
-    right: 100%;
+    /* right: 100%; */
   }
   /* #check:checked ~ .landingframe .landingText {
     padding-top: 150px;
@@ -219,5 +219,91 @@
   }
   .us {
     margin-right: auto;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .landingText .problem {
+    font-size: 70px;
+  }
+  .landingText .solution {
+    font-size: 70px;
+  }
+  .from {
+    margin-top: 55px;
+  }
+  #servicesBlob {
+    width: 100%;
+  }
+  #cards {
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 414px) {
+  #check:checked ~ nav a {
+    font-size: 10px;
+  }
+  #check:checked ~ .header a img {
+    height: 20px;
+  }
+  .controlsvg {
+    max-width: 80%;
+  }
+
+  .landingText .problem {
+    font-size: 40px;
+  }
+  .landingText .solution {
+    font-size: 40px;
+    margin-top: -25px;
+  }
+  .landingText .to {
+    font-size: 12px;
+    margin-left: -18px;
+    margin-top: -18px;
+  }
+  .landingText .from {
+    font-size: 12px;
+    margin-right: -10px;
+    margin-top: 30px;
+  }
+  .landingframe {
+    margin-bottom: 25;
+  }
+  #servicesBlob {
+    width: 125%;
+  }
+  .bg {
+    background-image: none;
+  }
+  .services-text-white {
+    text-decoration-color: rgb(47, 216, 201);
+  }
+  .title-icon img {
+    color: rgb(47, 216, 201);
+  }
+  .box-four {
+    padding-bottom: 500px;
+  }
+  .process div {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+  }
+  .decorText {
+    font-size: 12px;
+  }
+  .stars {
+    font-size: 20px;
+  }
+  .rating {
+    margin-right: -30px;
+  }
+  .services-text,
+  .clients-text {
+    font-size: 30px;
+  }
+  .clients-imgs img {
+    height: 20px;
   }
 }
