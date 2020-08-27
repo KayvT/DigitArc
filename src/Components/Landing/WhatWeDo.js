@@ -16,7 +16,7 @@ class WhatWeDo extends React.Component {
             <h1 className="services-text-white">WHAT WE DO</h1>
           </div>
         </div>
-        <div className="WhatweDoBox header-space container">
+        <div className="WhatweDoBox header-space">
           <div className="box-upper row" style={{ margin: 0 }}>
             <div className="box-one col">
               <div className="title-icon">

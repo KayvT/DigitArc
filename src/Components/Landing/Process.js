@@ -45,7 +45,7 @@ class Process extends React.Component {
           </div>
           <div className="col">
             <div>
-              <img id="icon" src={ContractIcon} alt="developIcon"></img>
+              <img id="icon" src={DevelopIcon} alt="developIcon"></img>
               <h3>Development</h3>
             </div>
             <p>

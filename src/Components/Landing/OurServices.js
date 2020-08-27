@@ -11,7 +11,10 @@ class OurServices extends React.Component {
   render() {
     return (
       // <div className="container-fluid">
-      <div className="header-space row">
+      <div
+        className="header-space row"
+        style={{ marginRight: 0, maringLeft: 0, marginBottom: 100 }}
+      >
         <div
           id="text-column"
           className="col-lg-6 d-flex flex-column justify-content-center align-items-center"
@@ -33,7 +36,10 @@ class OurServices extends React.Component {
             </button>
           </div>
         </div>
-        <div className="col-lg-6 service-layout d-flex justify-content-center align-items-center">
+        <div
+          id="serviceSection"
+          className="col-lg-6 service-layout d-flex justify-content-center align-items-center"
+        >
           <img
             id="servicesBlob"
             style={{
