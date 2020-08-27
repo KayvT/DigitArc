@@ -214,4 +214,10 @@
   .footer .row img {
     display: none;
   }
+  .about {
+    margin-right: auto;
+  }
+  .us {
+    margin-right: auto;
+  }
 }
