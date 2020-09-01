@@ -27,6 +27,7 @@ class Clients extends React.Component {
         </div>
         <div className="header-space clients-imgs">
           <Carousel
+            infinite
             clickToChange
             // arrows
             // arrowLeft={

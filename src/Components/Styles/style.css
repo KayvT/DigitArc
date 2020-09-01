@@ -2,8 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* background-color: #24252a; */
-  /* overflow-x: hidden; */
+
   font-size: 25;
 }
 .pad {
@@ -29,10 +28,6 @@ button {
   justify-content: space-around;
   align-items: center;
   padding: 15px;
-  /* padding: 10px 10px; */
-  /* background-color: rgb(47, 216, 201, 0.7); */
-  /* height: 70px; */
-  /* box-shadow: 2px 2px 2px -2px rgba(0, 4,0, 0.8); */
 }
 .Nav {
   top: 0;
@@ -55,18 +50,13 @@ nav .scrolllink:hover {
   color: white;
   cursor: pointer;
 }
-/* nav > .active {
-  border-bottom: 1px solid white;
-} */
 
 .checkbtn {
-  /* font-size: 30px; */
   color: white;
   cursor: pointer;
   display: none;
   margin-right: -50 0px;
   float: right;
-  /* display: none; */
 }
 #check {
   display: none;
@@ -76,7 +66,6 @@ button {
   padding: 5px 25px;
   background-color: rgb(47, 216, 201);
   border: none;
-  /* border-collapse: separate; */
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.5s ease 0s;
@@ -92,10 +81,7 @@ button:hover {
 .landingText {
   display: flex;
   justify-content: flex-end;
-  /* margin-right: -100px; */
   margin-top: 100px;
-  /* align-items: ce; */
-  /* align-items: center; */
 }
 
 .landingframe {
@@ -110,7 +96,6 @@ button:hover {
   justify-content: flex-start;
   margin-top: 80px;
   margin-right: -20px;
-  /* align-items: stretch; */
   font-family: "Poppins ExtraLight";
   font-style: italic;
   color: rgb(47, 216, 201);
@@ -137,10 +122,7 @@ button:hover {
   margin-top: -20px;
 }
 .solution {
-  /* display: flex; */
-  /* justify-content: end; */
   margin-top: -60px;
-  /* margin-left: -15px; */
   font-family: "Poppins SemiBold";
   color: rgb(47, 216, 201);
   font-size: 90px;
@@ -244,12 +226,8 @@ button:hover {
 .WhatweDoBox {
   justify-content: center;
   align-items: center;
-  /* padding-left: 200px; */
-  /* padding-right: 200px; */
-  /* padding-bottom: 100px; */
-  /* margin: auto; */
+
   margin-right: auto;
-  /* margin-left: auto; */
 }
 .box-upper {
   display: flex;
@@ -265,9 +243,7 @@ button:hover {
   border-bottom: 1px solid rgba(112, 112, 112, 0.2);
   border-bottom: 1px solid rgba(112, 112, 112, 0.2);
   -webkit-background-clip: padding-box; /* for Safari */
-  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome *
-  border-bottom: 2px solid #707070;
-  /* margin-left: 150px; */
+  background-clip: padding-box;
 }
 .box-two {
   /* border-bottom: 2px solid #707070; */
@@ -284,7 +260,6 @@ button:hover {
   border-right: 1px solid rgba(112, 112, 112, 0.2);
   -webkit-background-clip: padding-box; /* for Safari */
   background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome *
-  /* margin-left: 150px; */
 
   /* border-top: 5px solid red; */
 }
@@ -298,7 +273,6 @@ button:hover {
 .title-icon {
   display: flex;
   font-family: "Poppins Medium", sans-serif;
-  /* font-weight: bold; */
   color: #282828;
   align-items: last baseline;
   justify-content: left;
@@ -321,8 +295,6 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   flex-grow: inherit;
-  /* margin: auto; */
-  /* align-items: flex-end; */
 }
 .process {
   margin: auto;
@@ -333,7 +305,7 @@ button:hover {
   height: 70px;
 }
 .process h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
 }
 .process p {
@@ -344,18 +316,13 @@ button:hover {
 /* QUALITY CONTROL SECTION */
 
 .rating {
-  /* background-color: #f2f2f2; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-left: -100px;
 }
-/* .ratingContainer {
-  display: flex;
-  justify-content: flex-start;
-  justify-items: center;
-} */
+
 .controlsvg {
   max-width: 90%;
   margin-left: 50px;
@@ -368,7 +335,6 @@ button:hover {
 }
 .decorText {
   font-family: "Poppins ExtraLight";
-  /* font-weight: lighter; */
   font-size: 20px;
 }
 
@@ -395,22 +361,17 @@ button:hover {
 
 #clienticon {
   height: 50px;
-  /* margin: 40px; */
 }
 
 /* MAP */
 .MapHolder {
-  /* position: relative; */
   height: 400px;
   display: grid;
   margin: auto;
   grid-template-columns: repeat(2, 1.5fr);
   justify-items: stretch;
   align-items: stretch;
-  /* grid-auto-rows: 75px; */
   grid-gap: 25px;
-  /* align-content: center; */
-  /* justify-content: center; */
 }
 
 /* FOOTER */
@@ -587,7 +548,6 @@ button:hover {
 .not-found img {
   padding: 50px;
   width: 900px;
-  /* min-width: 500px; */
   max-width: 1200px;
 }
 .not-found {
@@ -621,7 +581,6 @@ button:hover {
   text-decoration-color: rgb(47, 216, 201);
   text-underline-offset: 40px;
   text-decoration-thickness: 10px;
-  /* text-underline-offset: 15px; */
   padding-bottom: 6%;
 }
 .details-text {

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
+import { Map, Marker, GoogleApiWrapper, InfoWindow } from "google-maps-react";
 import Styles from "../Styles/MapStyle";
 class MyMap extends React.Component {
   state = {
@@ -24,7 +24,7 @@ class MyMap extends React.Component {
           <div>
             <Map
               google={this.props.google}
-              zoom={15}
+              zoom={16}
               initialCenter={{ lat: 50.77603, lng: 7.275839 }}
               styles={this.props.mapStyle}
               containerStyle={{
@@ -39,12 +39,15 @@ class MyMap extends React.Component {
                 name={"DigitArc"}
                 position={{ lat: 50.77603, lng: 7.275839 }}
               />
+              <InfoWindow onClose={this.onInfoWindowClose}>
+                {<h1>{"Testing"}</h1>}
+              </InfoWindow>
             </Map>
           </div>
           <div>
             <Map
               google={this.props.google}
-              zoom={15}
+              zoom={16}
               styles={this.props.mapStyle}
               initialCenter={{ lat: 41.003485, lng: 29.071986 }}
               containerStyle={{
@@ -106,9 +109,7 @@ export default GoogleApiWrapper({
             position={{ lat: 50.77603, lng: 7.275839 }}
           />
 
-          <InfoWindow onClose={this.onInfoWindowClose}>
-            <div>{/* <h1>{this.state.selectedPlace.name}</h1> }</div>
-          </InfoWindow>
+          
         </Map>
         <Map
           google={this.props.google}

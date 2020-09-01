@@ -112,7 +112,6 @@
     font-size: 12px;
   }
   .title-icon {
-    /* font-family: "Poppins Medium", sans-serif; */
     align-items: baseline;
   }
   .WhatweDoBox h3 {
@@ -156,7 +155,6 @@
   nav a {
     display: none;
     font-size: 14px;
-    /* display: block; */
     right: 200%;
   }
   .checkbtn {
@@ -167,11 +165,8 @@
   #check:checked ~ nav a {
     transition: 0.5s ease-in;
     display: block;
-    /* right: 100%; */
   }
-  /* #check:checked ~ .landingframe .landingText {
-    padding-top: 150px;
-  } */
+
   #servicesBlob {
     width: 70%;
   }
