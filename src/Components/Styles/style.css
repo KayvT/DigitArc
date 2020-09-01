@@ -116,7 +116,6 @@ button:hover {
   font-family: "Poppins ExtraLight";
   font-style: italic;
   color: #282828;
-  /* align-items: baseline; */
   font-size: 20px;
   margin-left: -36px;
   margin-top: -20px;
@@ -129,7 +128,6 @@ button:hover {
 }
 .landingBTN {
   border-radius: 50px;
-  /* width: 400px; */
   max-width: 500px;
 }
 /* OUR SERVICES SECTION */
@@ -152,7 +150,6 @@ button:hover {
   text-decoration: underline;
   text-decoration-color: white;
   text-decoration-thickness: 10px;
-  /* padding-bottom: 6%; */
   padding-top: 150px;
   text-underline-offset: 10px;
 }
@@ -161,8 +158,6 @@ button:hover {
   display: flex;
   font-family: "Poppins Light", sans-serif;
   font-size: 18px;
-  /* justify-content: center; */
-  /* padding-left: 0px; */
 }
 .service-layout {
   display: flex;
@@ -175,7 +170,6 @@ button:hover {
 .service-row {
   margin-top: -50%;
   margin-bottom: 10%;
-  /* margin-left: -40%; */
 }
 
 .card-layout {
@@ -217,17 +211,20 @@ button:hover {
 }
 
 /*  WHAT WE DO SECTION */
-
 .bg {
   background-image: url("../../Assets/imgs/Decor SVGS/WhatWeDo.svg");
+  background-repeat: no-repeat;
   height: 1550px;
 }
 
 .WhatweDoBox {
   justify-content: center;
   align-items: center;
-
   margin-right: auto;
+}
+.WhatweDoBox .col {
+  flex-basis: 600px;
+  flex-grow: 0;
 }
 .box-upper {
   display: flex;
@@ -238,31 +235,26 @@ button:hover {
   justify-content: center;
 }
 .box-one {
-  /* border-right: 2px solid #707070; */
-  /* box-shadow: inset 0 0 10px #000000; */
   border-bottom: 1px solid rgba(112, 112, 112, 0.2);
   border-bottom: 1px solid rgba(112, 112, 112, 0.2);
-  -webkit-background-clip: padding-box; /* for Safari */
+  -webkit-background-clip: padding-box; /* for Safari  just in case*/
   background-clip: padding-box;
 }
 .box-two {
-  /* border-bottom: 2px solid #707070; */
   border-left: 1px solid rgba(112, 112, 112, 0.2);
   border-left: 1px solid rgba(112, 112, 112, 0.2);
-  -webkit-background-clip: padding-box; /* for Safari */
+  -webkit-background-clip: padding-box; /* for Safari I think these might change*/
   background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 .box-three {
-  /* border-right: 2px solid #707070; */
   border-top: 1px solid rgba(112, 112, 112, 0.2);
   border-top: 1px solid rgba(112, 112, 112, 0.2);
   border-right: 1px solid rgba(112, 112, 112, 0.2);
   border-right: 1px solid rgba(112, 112, 112, 0.2);
   -webkit-background-clip: padding-box; /* for Safari */
-  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome *
-
-  /* border-top: 5px solid red; */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
+
 .box-four {
   border-top: 1px solid rgba(112, 112, 112, 0.2);
   border-top: 1px solid rgba(112, 112, 112, 0.2);

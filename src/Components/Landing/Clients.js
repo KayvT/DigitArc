@@ -26,28 +26,7 @@ class Clients extends React.Component {
           </div>
         </div>
         <div className="header-space clients-imgs">
-          <Carousel
-            infinite
-            clickToChange
-            // arrows
-            // arrowLeft={
-            //   <button className="arrowBTN">
-            //     <ArrowBackIosIcon />
-            //   </button>
-            // }
-            // arrowLeftDisabled={}
-            // arrowRight={
-            //   <button className="arrowBTN">
-            //     <ArrowForwardIosIcon />
-            //   </button>
-            // }
-            // addArrowClickHandler={true}
-            // infinite={true}
-            // autoPlay={true}
-            slidesPerPage={7}
-            // centered={true}
-            // animationSpeed={60000}
-          >
+          <Carousel infinite clickToChange slidesPerPage={7}>
             <img src={THYicon} alt="THYicon" />
             <br></br>
             <img src={MERCEDESicon} alt="MERCEDESicon" />

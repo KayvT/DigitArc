@@ -276,8 +276,9 @@
   .title-icon img {
     color: rgb(47, 216, 201);
   }
-  .box-four {
-    padding-bottom: 500px;
+  .WhatweDoBox {
+    overflow: hidden;
+    /* padding-bottom: 500px; */
   }
   .process div {
     justify-content: center;
